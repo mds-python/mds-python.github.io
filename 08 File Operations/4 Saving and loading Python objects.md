@@ -46,4 +46,5 @@ The above code works the same as for the module `pickle`. However, please open t
 
 
 <hr />
-<p id="copyright">Published under <a class="external" rel="nofollow" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike</a> license.</p>
+
+Published under [Creative Commons Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.

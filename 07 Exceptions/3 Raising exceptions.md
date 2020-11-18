@@ -45,4 +45,5 @@ print(ten_minus(12))   # this will abort the program, because the exception is n
 
 
 <hr />
-<p id="copyright">Published under <a class="external" rel="nofollow" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike</a> license.</p>
+
+Published under [Creative Commons Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
