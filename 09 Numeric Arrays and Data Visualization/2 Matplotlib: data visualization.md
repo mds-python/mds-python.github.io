@@ -98,8 +98,8 @@ We also call functions `xlabel` and `ylabel`. Their arguments are strings that w
 
 The function `grid` draws a rectangular grid on the chart at selected points describing the values ​​on the chart axes. The points where the values ​​described on th  ticks are selected are selected automatically (of course, if we want, we can change their position and descriptions with an appropriate function, we'll talk about it later).
 
-# Several plots in common axes
 
+## Several plots in common axes
 
 ```python
 import numpy as np
