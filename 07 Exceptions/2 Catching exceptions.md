@@ -127,4 +127,4 @@ The **`try`** statement must have at least one **`except`**  block or one **`fin
 
 
 <hr />
-<p id="copyright">Published under <a class="external" rel="nofollow" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike</a> license.</p>
+<p id="copyright">Published under <a class="external" rel="nofollow" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike</a> license.</p>

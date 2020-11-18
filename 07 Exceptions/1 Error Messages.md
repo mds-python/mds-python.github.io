@@ -74,4 +74,4 @@ In Python, exceptions can be of different types that correspond to different typ
 
 
 <hr />
-<p id="copyright">Published under <a class="external" rel="nofollow" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike</a> license.</p>
+<p id="copyright">Published under <a class="external" rel="nofollow" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike</a> license.</p>
