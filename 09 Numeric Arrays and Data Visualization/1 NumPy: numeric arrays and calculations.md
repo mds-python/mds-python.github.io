@@ -92,7 +92,7 @@ M *= a
 
 Operations performed at once on entire matrices have many advantages. The program code is simpler and shorter, making it less error-prone. In addition, we do not have to worry about the specific implementation of a given operation: it is done for us by NumPy, which is specially optimized to make it work as quickly as possible.
 
-Check some other methods of creating arrays: [linspace](http://docs.scipy.org/doc/numpy/reference/generated/numpy.linspace.html), [zeros](http://docs.scipy.org/doc/numpy/reference/generated/numpy.zeros.html), [ones](http://docs.scipy.org/doc/numpy/reference/generated/numpy.ones.html), [mgrid](http://docs.scipy.org/doc/numpy/reference/generated/numpy.mgrid.html), [ogrid](http://docs.scipy.org/doc/numpy/reference/generated/numpy.ogrid.html), [r_](http://docs.scipy.org/doc/numpy/reference/generated/numpy.r_.html).
+Check some other methods of creating arrays: [linspace](http://docs.scipy.org/doc/numpy/reference/generated/numpy.linspace.html), [zeros](http://docs.scipy.org/doc/numpy/reference/generated/numpy.zeros.html), [ones](http://docs.scipy.org/doc/numpy/reference/generated/numpy.ones.html), [eye](http://docs.scipy.org/doc/numpy/reference/generated/numpy.eye.html), [meshgrid](http://docs.scipy.org/doc/numpy/reference/generated/numpy.meshgrid.html).
 
 
 ## Array shape
