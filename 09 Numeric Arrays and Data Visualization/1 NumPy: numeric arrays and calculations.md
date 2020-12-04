@@ -345,7 +345,7 @@ numpy.add(a, numpy.multiply(b, c))
 
 Of course, object and infix notation is used everywhere in Python, but it's worth mentioning that NumPy does not deviate from it. Nevertheless, NumPy departs from the Python interpretation of some actions. In Python, operations such as multiplying lists are derived from string operations. In numerical computation, operations on elements are the basis, so in NumPy all operators default to individual pairs of elements.
 
-The third reason, and perhaps the most important, is the *library of numeric functions*. Moving away from data objectivity allows you to export values ​​and communicate with libraries written in completely different programming languages. For example, SciPy can use the LAPACK library (Linear Algebra PACKage, written in Fortran 77). The fact that functions written in different languages ​​can exchange data in memory without complicated data translation is due to the fact that, as described in the previous section, all numbers are ultimately in a processor-accepted format.
+The third reason, and perhaps the most important, is the *library of numeric functions*. Moving away from data objectivity allows you to export values and communicate with libraries written in completely different programming languages. For example, SciPy can use the LAPACK library (Linear Algebra PACKage, written in Fortran 77). The fact that functions written in different languages can exchange data in memory without complicated data translation is due to the fact that, as described in the previous section, all numbers are ultimately in a processor-accepted format.
 
 The ability to use code written in C or Fortran allows the use of old, optimized, proven solutions.
 

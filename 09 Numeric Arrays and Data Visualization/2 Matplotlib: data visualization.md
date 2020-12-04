@@ -190,11 +190,11 @@ from scipy.stats import norm
 # we use it for the normal probability density distribution
 
 mi, sigma =  100,  15
-x = mi + sigma * np.random.randn(10000)
+x = mu + sigma * np.random.randn(10000)
 # numpy.random.randn returns an array with pseudorandom numbers
 # derived from a normal distribution of mean 0 and variance 1
-# multiplied by sigma standard deviation and adding mean mi
-# transforms the distribution to normal distribution with mean mi and variance sigma**2
+# multiplied by sigma standard deviation and adding mean mu
+# transforms the distribution to normal distribution with mean mu and variance sigma**2
 
 n, bins, patches = plt.hist(x, 50, density=True, facecolor='deepskyblue', edgecolor='b', alpha=0.75)
 # Here we explicitly receive the objects returned by plt.hist
@@ -209,7 +209,7 @@ bincenters = 0.5 * (bins[1:] + bins[:-1])
 # produce an array with bin centers using the bin boundaries
 # returned by plt.hist in the bins matrix
 
-y = norm.pdf(bincenters, mi, sigma)
+y = norm.pdf(bincenters, mu, sigma)
 # calculate the values ​​in the normal probability density distribution
 # with the mean mi and sigma variance ** 2 for the bincenters values
 
@@ -238,7 +238,7 @@ import matplotlib.pyplot as plt
 
 plt.axes(aspect='equal') # this guarantees that the circle will not come out "flattened"
 
-Φ = np.arange(0, 2*np.pi, 2*np.pi/600)
+Φ = np.linspace(0, 2*np.pi, 601)
 X = np.cos(Φ)
 Y = np.sin(2*Φ) / 2 # = np.sin(Φ) * np.cos(Φ)
 plt.plot(X, Y, 'b')
@@ -246,7 +246,7 @@ YO = np.sin(Φ)
 plt.plot(X, YO, 'y')
 
 # take a whole bunch of random points from the range (-1, 1)
-P = np.random.random((20000, 2)) * 2 - 1 # milion par (x, y)
+P = np.random.random((20000, 2)) * 2 - 1 # twenty thousands pairs (x, y)
 # throw out those outside the circle x**2 + y**2 < 1
 P = P[(P**2).sum(axis=1) < 1]
 # divide the points info those inside and those outside of the lemniscate
