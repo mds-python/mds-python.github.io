@@ -144,7 +144,7 @@ type(1 + 2)
 type(1 + 2.0)
 ```
 
-As you can see above, Python is able to convert numeric types by itself so that the result of a given action makes sense. However, it is possible to force type conversions manually by directly using their names as functions. This is especially useful when you want to convert a string to a number. For example: 
+As you can see above, Python is able to convert numeric types by itself so that the result of a given action makes sense. However, it is possible to force type conversions manually by directly using their names as functions. This is especially useful when you want to convert a string to a number. For example:
 
 ```python
 float("2.5")
