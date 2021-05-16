@@ -45,6 +45,6 @@ with open(filename, mode) as varname:
 The following parts of the lecture will discuss the operations that can be performed inside the block created in this way, depending on the mode in which the file was opened.
 
 
-<hr />
+<hr/>
 
 Published under [Creative Commons Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.

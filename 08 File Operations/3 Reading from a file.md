@@ -40,6 +40,6 @@ with open("file.txt", "r") as file:
 ```
 
 
-<hr />
+<hr/>
 
 Published under [Creative Commons Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.

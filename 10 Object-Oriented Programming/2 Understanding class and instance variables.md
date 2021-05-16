@@ -219,7 +219,7 @@ This differentiation allows us to use class variables to initialize objects with
 Making use of class- and instance-specific variables can ensure that our code adheres to the DRY principle to reduce repetition within code.
 
 
-<hr />
+<hr/>
 
 Published under [Creative Commons Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.  
 Original author [Lisa Tagliaferri](https://lisatagliaferri.org/). Source: <https://www.digitalocean.com/community/tutorials/understanding-class-and-instance-variables-in-python-3>.

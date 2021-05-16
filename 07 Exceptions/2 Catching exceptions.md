@@ -126,6 +126,6 @@ The clause **`finally`** is executed whether or not an exception occurs. The cod
 The **`try`** statement must have at least one **`except`**  block or one **`finally`** block.
 
 
-<hr />
+<hr/>
 
 Published under [Creative Commons Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.

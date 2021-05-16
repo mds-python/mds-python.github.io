@@ -358,7 +358,7 @@ plt.show()
 ![svg](output_34_0.svg)
 
 
-<hr />
+<hr/>
 
 Published under [Creative Commons Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.  
 Original author Robert J. Budzyński. Source: <https://brain.fuw.edu.pl/edu/index.php/PPy3/Matplotlib>.

@@ -244,6 +244,6 @@ def factorial(n):
 For a recursive function to work properly, each subsequent call must be made for a different value of the argument controlling the the recurrence (in the example above it is `factorial(n-1)`). It must also be guaranteed to stop subsequent function calls when the value of this argument reaches a given value (in the example it will be for _n_ equal to 1).
 
 
-<hr />
+<hr/>
 
 Published under [Creative Commons Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.

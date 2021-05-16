@@ -50,6 +50,6 @@ print("Length in inches is:", inches)
 Please pay attention to write programs this way, **from the very beginning**!
 
 
-<hr />
+<hr/>
 
 Published under [Creative Commons Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.

@@ -58,6 +58,6 @@ or in any other way as shown before. We can also increase the number of hierarch
 Creating packages is useful when writing more complex programs.
 
 
-<hr />
+<hr/>
 
 Published under [Creative Commons Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.

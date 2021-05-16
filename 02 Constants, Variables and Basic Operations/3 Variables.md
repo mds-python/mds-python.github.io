@@ -183,6 +183,6 @@ a, b = b, a
 There should be a comma-separated list of variable names to the left of the character `=`. The right side can be any expressions separated by commas. The number of elements on the left and on the right must be identical.
 
 
-<hr />
+<hr/>
 
 Published under [Creative Commons Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.

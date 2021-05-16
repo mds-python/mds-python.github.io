@@ -45,6 +45,6 @@ The above code works the same as for the module `pickle`. However, please open t
 ***Attention!***  When using the `json` module, it is not possible to save a variable of any type (e.g. tuples which must first be converted into lists). `pickle` and `yaml` do not have this limitation.
 
 
-<hr />
+<hr/>
 
 Published under [Creative Commons Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.

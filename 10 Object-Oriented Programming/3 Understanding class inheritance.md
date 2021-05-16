@@ -247,7 +247,7 @@ This lecture went through constructing parent classes and child classes, overrid
 Inheritance in object-oriented coding can allow for adherence to the DRY (don’t repeat yourself) principle of software development, allowing for more to be done with less code and repetition. Inheritance also compels programmers to think about how they are designing the programs they are creating to ensure that code is effective and clear.
 
 
-<hr />
+<hr/>
 
 Published under [Creative Commons Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.  
 Original author [Lisa Tagliaferri](https://lisatagliaferri.org/). Source: <https://www.digitalocean.com/community/tutorials/understanding-class-inheritance-in-python-3>.

@@ -24,6 +24,6 @@ The simplicity of Python and the possibilities it offers have made it an increas
 * [pandas](https://pandas.pydata.org/) — a fast, powerful, flexible and easy to use open source data analysis and manipulation tool.
 
 
-<hr />
+<hr/>
 
 Published under [Creative Commons Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
