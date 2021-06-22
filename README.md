@@ -54,7 +54,7 @@
 ## Numeric Arrays and Data Visualization
 
 * [NumPy: numeric arrays and calculations](09%20Numeric%20Arrays%20and%20Data%20Visualization/1%20NumPy%20-%20numeric%20arrays%20and%20calculations)
-* [Matplotlib: data visualization](09%20Numeric%20Arrays%20and%20Data%20Visualization/2%20Matplotlib:%20data%20visualization)
+* [Matplotlib: data visualization](09%20Numeric%20Arrays%20and%20Data%20Visualization/2%20Matplotlib%20-%20data%20visualization)
 
 ## Object-Oriented Programming
 
