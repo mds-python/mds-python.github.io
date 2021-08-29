@@ -3,6 +3,9 @@
 ## Introduction and Installations
 
 * [What is Python](01%20Introduction%20and%20Installation/1%20What%20is%20Python)
+* [Installation](01%20Introduction%20and%20Installation/2%20Installation)
+* [Programming Environment](01%20Introduction%20and%20Installation/3%20Programming%20Environment)
+* [Debugging your code](01%20Introduction%20and%20Installation/4%20Debugging%20your%20code)
 
 ## Constants, Variables and Basic Operations
 
