@@ -12,6 +12,7 @@
 * [Constants and their types](02%20Constants,%20Variables%20and%20Basic%20Operations/1%20Constants%20and%20their%20types)
 * [Other types and logical operations](02%20Constants,%20Variables%20and%20Basic%20Operations/2%20Other%20types%20and%20logical%20operations)
 * [Variables](02%20Constants,%20Variables%20and%20Basic%20Operations/3%20Variables)
+* Exercise: [Quadratic equation](https://github.com/mds-python/quadratic_equation)
 * [Keyboard input](02%20Constants,%20Variables%20and%20Basic%20Operations/4%20Keyboard%20input)
 
 ## Flow Control
@@ -19,6 +20,7 @@
 * [Conditions](03%20Flow%20Control/1%20Conditions)
 * [While loops](03%20Flow%20Control/2%20While%20loops)
 * [For loops](03%20Flow%20Control/3%20For%20loops)
+* Exercise: [Loops](https://github.com/mds-python/loops)
 
 ## More on Variables
 
@@ -30,11 +32,13 @@
 * [Complex numbers](04%20More%20on%20Variables/6%20Complex%20numbers)
 * [String operations](04%20More%20on%20Variables/7%20String%20operations)
 * [Variables and variable types](04%20More%20on%20Variables/8%20Variables%20and%20variable%20types)
+* Exercise: [Variables](https://github.com/mds-python/variables)
 
 ## Functions
 
 * [Defining and calling functions](05%20Functions/1%20Defining%20and%20calling%20functions)
 * [Functions with arbitrary arguments](05%20Functions/2%20Functions%20with%20arbitrary%20arguments)
+* Exercise: [Functions](https://github.com/mds-python/functions)
 
 ## Modules
 
@@ -53,11 +57,16 @@
 * [Writing to a file](08%20File%20Operations/2%20Writing%20to%20a%20file)
 * [Reading from a file](08%20File%20Operations/3%20Reading%20from%20a%20file)
 * [Saving and loading Python objects](08%20File%20Operations/4%20Saving%20and%20loading%20Python%20objects)
+* Exercise: [Verification](https://github.com/mds-python/verification)
+
+Project 1: [Hangman](https://github.com/mds-python/hangman)
 
 ## Numeric Arrays and Data Visualization
 
 * [NumPy: numeric arrays and calculations](09%20Numeric%20Arrays%20and%20Data%20Visualization/1%20NumPy%20-%20numeric%20arrays%20and%20calculations)
+* Exercise: [NumPy](https://github.com/mds-python/numpy)
 * [Matplotlib: data visualization](09%20Numeric%20Arrays%20and%20Data%20Visualization/2%20Matplotlib%20-%20data%20visualization)
+* Exercise [Billiards](https://github.com/mds-python/billiards)
 
 ## Object-Oriented Programming
 
@@ -65,3 +74,8 @@
 * [Understanding class and instance variables](10%20Object-Oriented%20Programming/2%20Understanding%20class%20and%20instance%20variables)
 * [Understanding class inheritance](10%20Object-Oriented%20Programming/3%20Understanding%20class%20inheritance)
 * [Special methods](10%20Object-Oriented%20Programming/4%20Special%20methods)
+* Exercise: [Fractions](https://github.com/mds-python/fractions)
+
+Project 2: [Game of Life](https://github.com/mds-python/game-of-life)
+
+Project 3: [COVID Simulator](https://github.com/mds-python/covid)
