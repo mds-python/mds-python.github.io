@@ -9,7 +9,7 @@ Constant values such as numbers, letters, and strings (strings) are called "cons
 * integer numbers: `1`, `100`;
 * integers in non-decimal notation systems beginning with the prefix `0b` (binary notation), `0x` (hexadecimal notation), `0o` (octal notation): `0b101` (5), `0x1a` (26), `0o12` (10);
 * real numbers (the decimal part is separated by a dot and no digits before or after the dot means 0): `2.27`, `3.14`, `-1.2`, `1.0`, `2.` (2.0), `.5` (0.5);
-* real numbers written in exponential (base 10) notation <em style="color: #0000ff;">mantissa</em>e<em style="color: #ff00ff;">exponent</em>, oznaczające <em style="color: #0000ff;">mantissa</em> × 10<sup><em style="color: #ff00ff;">exponent</em></sup>: `-5e3` (-5000), `2.5e-2`</span></tt>` (0.025);
+* real numbers written in exponential (base 10) notation <em style="color: #0000ff;">mantissa</em>e<em style="color: #ff00ff;">exponent</em>, oznaczające <em style="color: #0000ff;">mantissa</em> × 10<sup><em style="color: #ff00ff;">exponent</em></sup>: `-5e3` (-5000), `2.5e-2` (0.025);
 * complex numbers in which we write both components as real numbers, and denote the imaginary part by adding `j` at the end: `1.5-0.2j`, `-2+1e-1j` (-2+0.1j);
 
 ### Text types

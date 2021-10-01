@@ -66,27 +66,11 @@ g = 9.81                # gravitational acceleration [m/s²]
 h = 30                  # building height [m]
 t = (2 * h / g)**0.5    # calculated fall time [s]
 
-
 print("Time of falling from height", h, "m is", t, "s.")
 ```
 
 In the last line, we used the `print` function to print the answer as a full sentence.
 
-## `print` function
-
-The `print` function is used to print constants and variables to the screen. By default, it prints all values given as its arguments to the screen, separating them with spaces. It finally prints the newline, so that subsequent calls to print will be arguments on subsequent lines.
-
-You can change the character by which the values to be printed are separated: replacing the default space with any text. To do this, after the arguments to be printed, add `sep='new separator'`. Likewise, you can change the characters printed at the end (defaulting to a newline) by adding `end='new end'`. For example:
-
-```python
-print(1, 2, 3, sep='...')            # 1...2...3
-print(1, 2, 3, end='X')              # 1 2 3X
-print(1, 2, 3, sep='...', end='XX')  # 1...2...3XX
-```
-
-In the last two cases, no newline will be printed. Another call to print will print the text on the same line.
-
-Remember that a newline or a string given as end will always be printed, even when no argument is given. So, calling `print()` will just jump to a new line.
 
 ## Naming Variables
 

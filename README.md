@@ -1,11 +1,19 @@
 # Programming for Modelling and Data Analysis
 
-## Introduction and Installations
+## Algorithms and Programs
 
-* [What is Python](01%20Introduction%20and%20Installation/1%20What%20is%20Python)
-* [Installation](01%20Introduction%20and%20Installation/2%20Installation)
-* [Programming Environment](01%20Introduction%20and%20Installation/3%20Programming%20Environment)
-* [Debugging your code](01%20Introduction%20and%20Installation/4%20Debugging%20your%20code)
+* [What is an algorithm?](00%20Algorithms/1%20What%20is%20an%20algorithm)
+* [Computer thinking using top-down approach](00%20Algorithms/2%20Top-down%20approach)
+* [Kitchen and Dining Room](00%20Algorithms/3%20Frontend-backend)
+* Exercise: Algorithms
+
+## Python Environment
+
+* [What is Python](01%20Python%20Environment/1%20What%20is%20Python)
+* [Installation](01%20Python%20Environment/2%20Installation)
+* [Programming Environment](01%20Python%20Environment/3%20Programming%20Environment)
+* [Fast prototyping with Jupyter Notebooks]
+* [Debugging your code](01%20Python%20Environment/5%20Debugging%20your%20code)
 
 ## Constants, Variables and Basic Operations
 
@@ -13,7 +21,7 @@
 * [Other types and logical operations](02%20Constants,%20Variables%20and%20Basic%20Operations/2%20Other%20types%20and%20logical%20operations)
 * [Variables](02%20Constants,%20Variables%20and%20Basic%20Operations/3%20Variables)
 * Exercise: [Quadratic equation](https://github.com/mds-python/quadratic_equation)
-* [Keyboard input](02%20Constants,%20Variables%20and%20Basic%20Operations/4%20Keyboard%20input)
+* [User interaction](02%20Constants,%20Variables%20and%20Basic%20Operations/4%20Keyboard%20input)
 
 ## Flow Control
 

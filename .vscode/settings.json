@@ -4,5 +4,12 @@
         "MD026": {
             "punctuation": ".,;:。，；："
         }
+    },
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 132,
+    "[markdown]": {
+        "editor.wordWrapColumn": 132,
+        "editor.wordWrap": "bounded",
+        "editor.quickSuggestions": false
     }
 }
