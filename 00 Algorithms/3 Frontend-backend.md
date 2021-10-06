@@ -19,6 +19,7 @@ Very often you will start writing your program with very simple text-based user 
 | ![Dining room](dining-room.jpg)                                | ![Kitchen](kitchen.jpg) |
 | image source: [U.S. National Archives](https://nara.getarchive.net/)                     |
 
+During the course you will learn about writing functions, modules, and classes, which are great tools to achieve the aforementioned separation. However, you must think about it from the very beginning: for start just put all the user inputs first and the final outputs last and clearly mark these parts of your code as input/output.
 
 <hr/>
 

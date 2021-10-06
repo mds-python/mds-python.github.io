@@ -12,7 +12,7 @@
 * [What is Python](01%20Python%20Environment/1%20What%20is%20Python)
 * [Installation](01%20Python%20Environment/2%20Installation)
 * [Programming Environment](01%20Python%20Environment/3%20Programming%20Environment)
-* [Fast prototyping with Jupyter Notebooks]
+* [Fast prototyping with Jupyter Notebooks](01%20Python%20Environment/4%20Jupyter%20Notebooks)
 * [Debugging your code](01%20Python%20Environment/5%20Debugging%20your%20code)
 
 ## Constants, Variables and Basic Operations
