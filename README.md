@@ -3,7 +3,7 @@
 ## Algorithms and Programs
 
 * [What is an algorithm?](00%20Algorithms/1%20What%20is%20an%20algorithm)
-* [Computer thinking using top-down approach](00%20Algorithms/2%20Top-down%20approach)
+* [Thinking in algorithms](00%20Algorithms/2%20Thinking%20in%20algorithms)
 * [Kitchen and Dining Room](00%20Algorithms/3%20Frontend-backend)
 * Exercise: Algorithms
 
@@ -20,12 +20,12 @@
 * [Constants and their types](02%20Constants,%20Variables%20and%20Basic%20Operations/1%20Constants%20and%20their%20types)
 * [Other types and logical operations](02%20Constants,%20Variables%20and%20Basic%20Operations/2%20Other%20types%20and%20logical%20operations)
 * [Variables](02%20Constants,%20Variables%20and%20Basic%20Operations/3%20Variables)
-* Exercise: [Quadratic equation](https://github.com/mds-python/quadratic_equation)
 * [User interaction](02%20Constants,%20Variables%20and%20Basic%20Operations/4%20Keyboard%20input)
 
 ## Flow Control
 
 * [Conditions](03%20Flow%20Control/1%20Conditions)
+* Exercise: [Quadratic equation](https://github.com/mds-python/quadratic_equation)
 * [While loops](03%20Flow%20Control/2%20While%20loops)
 * [For loops](03%20Flow%20Control/3%20For%20loops)
 * Exercise: [Loops](https://github.com/mds-python/loops)

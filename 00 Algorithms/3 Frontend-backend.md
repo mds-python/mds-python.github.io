@@ -14,10 +14,10 @@ Depending on the type of the program, the front-end or back-end part may be domi
 
 Very often you will start writing your program with very simple text-based user interface and later, after you make sure the logic part works well, you create some graphical interface that will be easier to use for the end user. In such case, it is crucial that you separate front-end from the back-end from the very beginning.
 
-| Dining room                                                    | Kitchen                 |
-| -------------------------------------------------------------- | ----------------------- |
-| ![Dining room](dining-room.jpg)                                | ![Kitchen](kitchen.jpg) |
-| image source: [U.S. National Archives](https://nara.getarchive.net/)                     |
+| Dining room                                                | Kitchen                                                    |
+| ---------------------------------------------------------- | ---------------------------------------------------------- |
+| <img alt="Dining room" src="dining-room.jpg" width="320"/> | <img alt="Kitchen" src="kitchen.jpg" width="320"/> |
+images source: [U.S. National Archives](https://nara.getarchive.net/)                     
 
 During the course you will learn about writing functions, modules, and classes, which are great tools to achieve the aforementioned separation. However, you must think about it from the very beginning: for start just put all the user inputs first and the final outputs last and clearly mark these parts of your code as input/output.
 

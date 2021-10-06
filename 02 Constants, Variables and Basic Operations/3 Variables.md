@@ -1,6 +1,6 @@
 # Variables
 
-Writing any program would be impossible if the calculated values could not be saved.  For this purpose we use **variables**.
+Writing any program would be impossible if the calculated values could not be saved. For this purpose we use **variables**.
 
 A variable is the name (label) of the memory location that contains the specified value. It is created using the instruction `=` (single character, unlike the logical comparison operator described earlier):
 
