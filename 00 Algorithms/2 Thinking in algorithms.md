@@ -27,7 +27,7 @@ OUTPUT:
 
 As you can see, we have used **labels** `a` and `b` for an input data that <u>needs to be provided at the program execution</u> ( at the moment, let's do not worry how) and also we have performed some computations and **labeled** (named) their result as `area`. Finally, we can provide this named value as the algorithm output.
 
-Let's take a look at another example. Given two numbers *x*<sub>1</sub> and *x*<sub>2</sub> computer their average. The algorithm would be as follows:
+Let's take a look at another example. Given two numbers *x*₁ and *x*₂ computer their average. The algorithm would be as follows:
 
 ```
 INPUT:
@@ -43,12 +43,12 @@ OUTPUT:
 
 What you see above is a recipe. It contains two simple steps. You should try to track it and see how the labeled values change:
 
-| STEP                                         | *x*<sub>1</sub> | *x*<sub>2</sub> | *total* | *average* | RESULT |
-| -------------------------------------------- | --------------- | --------------- | ------- | --------- | ------ |
-| **INPUT**                                    | **2**           | **4**           |         |           |        |
-| *total* = *x*<sub>1</sub> + *x*<sub>2</sub>. | 2               | 4               | 6       |           |        |
-| *average* = *total* / 2.                     | 2               | 4               | 6       | 3         |        |
-| **OUTPUT**                                   | 2               | 4               | 6       | 3         | **3**  |
+| STEP                     | *x*₁  | *x*₂  | *total* | *average* | RESULT |
+| ------------------------ | ----- | ----- | ------- | --------- | ------ |
+| **INPUT**                | **2** | **4** |         |           |        |
+| *total* = *x*₁ + *x*₂.   | 2     | 4     | 6       |           |        |
+| *average* = *total* / 2. | 2     | 4     | 6       | 3         |        |
+| **OUTPUT**               | 2     | 4     | 6       | 3         | **3**  |
 
 Now, something more complicated: given two numbers, tell what is the value of the larger ones:
 
@@ -66,25 +66,25 @@ OUTPUT:
 
 Let's track it for some sample data:
 
-| STEP                                          | *x*<sub>1</sub> | *x*<sub>2</sub> | *larger* | RESULT |
-| --------------------------------------------- | --------------- | --------------- | -------- | ------ |
-| **INPUT**                                     | **2**           | **1**           |          |        |
-| Checking if *x*<sub>1</sub> > *x*<sub>2</sub> | 2               | 1               |          | yes    |
-| *larger* = *x*<sub>1</sub>                    | 2               | 1               | 2        |        |
-| **OUTPUT**                                    | 2               | 1               | 2        | **2**  |
+| STEP                    | *x*₁  | *x*₂  | *larger* | RESULT |
+| ----------------------- | ----- | ----- | -------- | ------ |
+| **INPUT**               | **2** | **1** |          |        |
+| Checking if *x*₁ > *x*₂ | 2     | 1     |          | yes    |
+| *larger* = *x*₁         | 2     | 1     | 2        |        |
+| **OUTPUT**              | 2     | 1     | 2        | **2**  |
 
 How will it look for some different data?
 
-| STEP                                          | *x*<sub>1</sub> | *x*<sub>2</sub> | *larger* | RESULT |
-| --------------------------------------------- | --------------- | --------------- | -------- | ------ |
-| **INPUT**                                     | **2**           | **3**           |          |        |
-| Checking if *x*<sub>1</sub> > *x*<sub>2</sub> | 2               | 3               |          | no     |
-| *larger* = *x*<sub>2</sub>                    | 2               | 3               | 3        |        |
-| **OUTPUT**                                    | 2               | 3               | 3        | **3**  |
+| STEP                    | *x*₁  | *x*₂  | *larger* | RESULT |
+| ----------------------- | ----- | ----- | -------- | ------ |
+| **INPUT**               | **2** | **3** |          |        |
+| Checking if *x*₁ > *x*₂ | 2     | 3     |          | no     |
+| *larger* = *x*₂         | 2     | 3     | 3        |        |
+| **OUTPUT**              | 2     | 3     | 3        | **3**  |
 
 The above algorithm was not performed linearly. Depending on some condition either one or another operation was performed. This is called a *conditional*.
 
-Let's take a look at more advanced example — solution to [Quadratic equation](https://en.wikipedia.org/wiki/Quadratic_equation) of the form *a* *x*<sup>2</sup> + *b* *x* + *c* = 0. I hope you remember how to do it! Hence, the simplest and most naive algorithm would be:
+Let's take a look at more advanced example — solution to [Quadratic equation](https://en.wikipedia.org/wiki/Quadratic_equation) of the form *a* *x*² + *b* *x* + *c* = 0. I hope you remember how to do it! Hence, the simplest and most naive algorithm would be:
 
 ```bash
 INPUT:
@@ -122,58 +122,58 @@ OUTPUT:
   x₁, x₂
 ```
 
-Above, you can see that the algorithm can take three paths, depending on the value of *Δ*. What is important, is that in each path we mention both *x*<sub>1</sub> and *x*<sub>2</sub>. This is because, we have identified both of them as an output, so **we must define such names in every possible path!** Even in the cases when one or both of them does not exits, we mark them as non-existent (right now, you need not worry how: programming languages allow to do it one way or another).
+Above, you can see that the algorithm can take three paths, depending on the value of *Δ*. What is important, is that in each path we mention both *x*₁ and *x*₂. This is because, we have identified both of them as an output, so **we must define such names in every possible path!** Even in the cases when one or both of them does not exits, we mark them as non-existent (right now, you need not worry how: programming languages allow to do it one way or another).
 
 So the algorithm looks good... Let's track if for some data:
 
-Solving *x*<sup>2</sup> + 2 *x* – 8 = 0:
+Solving *x*² + 2 *x* – 8 = 0:
 
-| STEP                                      | *a*   | *b*   | *c*    | *Δ* | *x*<sub>1</sub> | *x*<sub>2</sub> | RESULT        |
-| ----------------------------------------- | ----- | ----- | ------ | --- | --------------- | --------------- | ------------- |
-| **INPUT**                                 | **1** | **2** | **-8** |     |                 |                 |               |
-| *Δ* = *b*<sup>2</sup> – 4×*a*×*c*         | 1     | 2     | -8     | 36  |                 |                 |               |
-| Checking if *Δ* > 0                       | 1     | 2     | -8     | 36  |                 |                 | yes           |
-| *x*<sub>1</sub> = (–*b* – √*Δ*) / (2×*a*) | 1     | 2     | -8     | 36  | -4              |                 |               |
-| *x*<sub>2</sub> = (–*b* + √*Δ*) / (2×*a*) | 1     | 2     | -8     | 36  | -4              | 2               |               |
-| **OUTPUT**                                | 1     | 2     | -8     | 36  | -4              | 2               | **-4**, **2** |
+| STEP                           | *a*   | *b*   | *c*    | *Δ* | *x*₁ | *x*₂ | RESULT        |
+| ------------------------------ | ----- | ----- | ------ | --- | ---- | ---- | ------------- |
+| **INPUT**                      | **1** | **2** | **-8** |     |      |      |               |
+| *Δ* = *b*² – 4×*a*×*c*         | 1     | 2     | -8     | 36  |      |      |               |
+| Checking if *Δ* > 0            | 1     | 2     | -8     | 36  |      |      | yes           |
+| *x*₁ = (–*b* – √*Δ*) / (2×*a*) | 1     | 2     | -8     | 36  | -4   |      |               |
+| *x*₂ = (–*b* + √*Δ*) / (2×*a*) | 1     | 2     | -8     | 36  | -4   | 2    |               |
+| **OUTPUT**                     | 1     | 2     | -8     | 36  | -4   | 2    | **-4**, **2** |
 
-Solving *x*<sup>2</sup> – 2 *x* + 1 = 0:
+Solving *x*² – 2 *x* + 1 = 0:
 
-| STEP                              | *a*   | *b*    | *c*   | *Δ* | *x*<sub>1</sub> | *x*<sub>2</sub> | RESULT           |
-| --------------------------------- | ----- | ------ | ----- | --- | --------------- | --------------- | ---------------- |
-| **INPUT**                         | **1** | **-2** | **1** |     |                 |                 |                  |
-| *Δ* = *b*<sup>2</sup> – 4×*a*×*c* | 1     | -2     | 1     | 0   |                 |                 |                  |
-| Checking if *Δ* > 0               | 1     | -2     | 1     | 0   |                 |                 | no               |
-| Checking if *Δ* = 0               | 1     | -2     | 1     | 0   |                 |                 | yes              |
-| *x*<sub>1</sub> = –*b* / (2×*a*)  | 1     | -2     | 1     | 0   | 1               |                 |                  |
-| *x*<sub>2</sub> does not exist    | 1     | -2     | 1     | 0   | 1               | none            |                  |
-| **OUTPUT**                        | 1     | -2     | 1     | 0   | 1               | none            | **-4**, **none** |
+| STEP                   | *a*   | *b*    | *c*   | *Δ* | *x*₁ | *x*₂ | RESULT           |
+| ---------------------- | ----- | ------ | ----- | --- | ---- | ---- | ---------------- |
+| **INPUT**              | **1** | **-2** | **1** |     |      |      |                  |
+| *Δ* = *b*² – 4×*a*×*c* | 1     | -2     | 1     | 0   |      |      |                  |
+| Checking if *Δ* > 0    | 1     | -2     | 1     | 0   |      |      | no               |
+| Checking if *Δ* = 0    | 1     | -2     | 1     | 0   |      |      | yes              |
+| *x*₁ = –*b* / (2×*a*)  | 1     | -2     | 1     | 0   | 1    |      |                  |
+| *x*₂ does not exist    | 1     | -2     | 1     | 0   | 1    | none |                  |
+| **OUTPUT**             | 1     | -2     | 1     | 0   | 1    | none | **-4**, **none** |
 
-Solving *x*<sup>2</sup> + 2 *x* + 3 = 0:
+Solving *x*² + 2 *x* + 3 = 0:
 
-| STEP                                            | *a* | *b* | *c* | *Δ* | *x*<sub>1</sub> | *x*<sub>2</sub> | RESULT             |
-| ----------------------------------------------- | --- | --- | --- | --- | --------------- | --------------- | ------------------ |
-| **INPUT**                                       |**1**|**2**|**3**|     |                 |                 |                    |
-| *Δ* = *b*<sup>2</sup> – 4×*a*×*c*               | 1   | 2   | 3   | 0   |                 |                 |                    |
-| Checking if *Δ* > 0                             | 1   | 2   | 3   | 0   |                 |                 | no                 |
-| Checking if *Δ* = 0                             | 1   | 2   | 3   | 0   |                 |                 | no                 |
-| *x*<sub>1</sub> and *x*<sub>2</sub> don't exist | 1   | 2   | 3   | 0   | none            | none            |                    |
-| **OUTPUT**                                      | 1   | 2   | 3   | 0   | none            | none            | **none**, **none** |
+| STEP                      | *a*   | *b*   | *c*   | *Δ* | *x*₁ | *x*₂ | RESULT             |
+| ------------------------- | ----- | ----- | ----- | --- | ---- | ---- | ------------------ |
+| **INPUT**                 | **1** | **2** | **3** |     |      |      |                    |
+| *Δ* = *b*² – 4×*a*×*c*    | 1     | 2     | 3     | 0   |      |      |                    |
+| Checking if *Δ* > 0       | 1     | 2     | 3     | 0   |      |      | no                 |
+| Checking if *Δ* = 0       | 1     | 2     | 3     | 0   |      |      | no                 |
+| *x*₁ and *x*₂ don't exist | 1     | 2     | 3     | 0   | none | none |                    |
+| **OUTPUT**                | 1     | 2     | 3     | 0   | none | none | **none**, **none** |
 
 Let's consider another case: *a* = 0, *b* = 2, *c* = 3:
 
-| STEP                                      | *a*   | *b*   | *c*   | *Δ* | *x*<sub>1</sub>            | *x*<sub>2</sub> | RESULT |
-| ----------------------------------------- | ----- | ----- | ----- | --- | -------------------------- | --------------- | ------ |
-| **INPUT**                                 | **0** | **2** | **3** |     |                            |                 |        |
-| *Δ* = *b*<sup>2</sup> – 4×*a*×*c*         | 0     | 2     | 3     | 4   |                            |                 |        |
-| Checking if *Δ* > 0                       | 0     | 2     | 3     | 4   |                            |                 | yes    |
-| *x*<sub>1</sub> = (–*b* – √*Δ*) / (2×*a*) | 0     | 2     | 3     | 4   | <span style="color: red">0/0</span> |        |        |
+| STEP                           | *a*   | *b*   | *c*   | *Δ* | *x*₁                                | *x*₂ | RESULT |
+| ------------------------------ | ----- | ----- | ----- | --- | ----------------------------------- | ---- | ------ |
+| **INPUT**                      | **0** | **2** | **3** |     |                                     |      |        |
+| *Δ* = *b*² – 4×*a*×*c*         | 0     | 2     | 3     | 4   |                                     |      |        |
+| Checking if *Δ* > 0            | 0     | 2     | 3     | 4   |                                     |      | yes    |
+| *x*₁ = (–*b* – √*Δ*) / (2×*a*) | 0     | 2     | 3     | 4   | <span style="color: red">0/0</span> |      |        |
 
 Can you see what happened? Out algorithm failed for a case where *a* = 0! What can be done about it? Well, we need to explicitly check this case. So the algorithm will be:
 
 ```
 INPUT:
-  a, b, c — eqution coeffi      ients.
+  a, b, c — eqution coefficients.
 
 STEPS:
   — Check if a ≠ 0, if so:
@@ -196,7 +196,7 @@ OUTPUT:
 
 What you can see above is a **nested conditional**. First we check one condition (*a* ≠ 0) and in one of the cases we check another one (*Δ* > 0 or *Δ* = 0). When you write your own algorithms, clearly mark which block is nested in which!
 
-Please trace this algorithm for the equations *x*<sup>2</sup> + 2 *x* – 8 = 0, *x*<sup>2</sup> – 2 *x* + 1 = 0, *x*<sup>2</sup> + 2 *x* + 3 = 0, and 2 *x* + 4 = 0 (*a* = 0) yourself.
+Please trace this algorithm for the equations *x*²&nbsp;+&nbsp;2&nbsp;*x*&nbsp;–8&nbsp;=&nbsp;0, *x*²&nbsp;–&nbsp;2*x*&nbsp;+&nbsp;1&nbsp;=&nbsp;0, *x*²&nbsp;+&nbsp;2&nbsp;*x*&nbsp;+&nbsp;3&nbsp;=&nbsp;0, and 2&nbsp;*x*&nbsp;+&nbsp;4&nbsp;=&nbsp;0 (*a*&nbsp;=&nbsp;0) yourself.
 
 ## Summary
 
