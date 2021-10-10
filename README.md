@@ -5,7 +5,7 @@
 * [What is an algorithm?](00%20Algorithms/1%20What%20is%20an%20algorithm)
 * [Thinking in algorithms](00%20Algorithms/2%20Thinking%20in%20algorithms)
 * [Kitchen and Dining Room](00%20Algorithms/3%20Frontend-backend)
-* Exercise: Algorithms
+* Exercises: [Algorithms](00%20Algorithms/Exercises)
 
 ## Python Environment
 
