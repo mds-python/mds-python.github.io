@@ -71,7 +71,7 @@ for character in original_text:
     elif 'a' <= character <= 'z':  # we do the same for lower case letters
         code = ord(character) - ord('a')   # subtract lower case code "a"
         new_code = (code + 13) % 26
-        encrypted_text += chr (new_code + ord('a'))
+        encrypted_text += chr(new_code + ord('a'))
 
     else: 
          # Rewrite the remaining characters unchanged
@@ -115,7 +115,7 @@ for i in range(1, 11):
 and to do it backwards:
 
 ```python
-for i in range (10, 0, -1): 
+for i in range(10, 0, -1): 
     print(i)
 ```
 
@@ -132,11 +132,11 @@ trap = int(input("Enter the trap value:"))
 
 for i in range (1, 11):
     if i == trap:
-        print ("You felt into the trap!") 
+        print("You felt into the trap!") 
         break
     print(i) 
 else: 
-    print ("You successfully avoided the trap.")
+    print("You successfully avoided the trap.")
 ```
 
 ## Loop nesting

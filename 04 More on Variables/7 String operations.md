@@ -74,7 +74,7 @@ A more sophisticated method for changing the case of letters are:
 
 ## String formatting
 
-Python allows you to construct strings using values stored in other variables. There are three ways of doing this: with a `%` operator (this is a deprecated method and not recommended), with a `format` method, and with special *format strings*. The latter method is the easiest to use, however it <u>requires Python version 3.6 or higher</u>. As there is now a newer version available, this very method will be discussed:
+Python allows you to construct strings using values stored in other variables. There are three ways of doing this: with a `%` operator (this is a deprecated method and not recommended), with a `format` method, and with special *format strings*. The latter method is the easiest to use, however it <u>requires Python version 3.6 or higher</u>. As this method is the newest one available, it will be discussed here:
 
 *Format strings* are special text strings that are created by adding a character `f` immediately before the double or single quotation marks that open the string (no spaces between them). In such a string, the brace has a special meaning: inside it you can put any Python expression, the value of which will be inserted into the string. E.g:
 
