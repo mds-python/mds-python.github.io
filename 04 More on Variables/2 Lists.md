@@ -29,7 +29,7 @@ list = ['A', 'B', 'C', 'D']
 
 del list[1]     # delete the second element
 
-print (list)     # ['A', 'C', 'D']
+print(list)     # ['A', 'C', 'D']
 ```
 
 It is also possible to insert and add items to the list. They are used to this  method  with names `insert` and `append`. These methods are specific operations related to a variable of a given type. They are similar to a function, but affect only one specific object. They are called as follows `object.method(arguments...)`, where object is usually a variable name, and the method name is separated from the object by a period. Adding an item to the list will look like this:
