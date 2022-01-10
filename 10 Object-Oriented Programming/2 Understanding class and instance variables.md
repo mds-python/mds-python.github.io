@@ -221,5 +221,5 @@ Making use of class- and instance-specific variables can ensure that our code ad
 
 <hr/>
 
-Published under [Creative Commons Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.  
+Published under [Creative Commons Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.  
 Original author [Lisa Tagliaferri](https://lisatagliaferri.org/). Source: <https://www.digitalocean.com/community/tutorials/understanding-class-and-instance-variables-in-python-3>.

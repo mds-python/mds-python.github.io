@@ -55,4 +55,4 @@ The opposite of the operator **`is`** is **`is not`**.
 
 <hr/>
 
-Published under [Creative Commons Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
+Published under [Creative Commons Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.

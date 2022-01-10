@@ -128,4 +128,4 @@ The **`try`** statement must have at least one **`except`**  block or one **`fin
 
 <hr/>
 
-Published under [Creative Commons Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
+Published under [Creative Commons Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.

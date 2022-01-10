@@ -169,4 +169,4 @@ There should be a comma-separated list of variable names to the left of the char
 
 <hr/>
 
-Published under [Creative Commons Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
+Published under [Creative Commons Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.

@@ -360,5 +360,5 @@ plt.show()
 
 <hr/>
 
-Published under [Creative Commons Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.  
+Published under [Creative Commons Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.  
 Original author Robert J. Budzyński. Source: <https://brain.fuw.edu.pl/edu/index.php/PPy3/Matplotlib>.

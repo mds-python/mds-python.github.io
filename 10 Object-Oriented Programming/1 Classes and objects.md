@@ -246,5 +246,5 @@ Object-oriented programming is an important concept to understand because it mak
 
 <hr/>
 
-Published under [Creative Commons Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.  
+Published under [Creative Commons Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.  
 Original author [Lisa Tagliaferri](https://lisatagliaferri.org/). Source: <https://www.digitalocean.com/community/tutorials/how-to-construct-classes-and-define-objects-in-python-3>.

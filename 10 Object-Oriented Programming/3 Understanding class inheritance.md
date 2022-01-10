@@ -249,5 +249,5 @@ Inheritance in object-oriented coding can allow for adherence to the DRY (don’
 
 <hr/>
 
-Published under [Creative Commons Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.  
+Published under [Creative Commons Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.  
 Original author [Lisa Tagliaferri](https://lisatagliaferri.org/). Source: <https://www.digitalocean.com/community/tutorials/understanding-class-inheritance-in-python-3>.

@@ -73,4 +73,4 @@ Here are some suggestions for reading programs (and other formal languages). Fir
 
 <hr/>
 
-Published under [GNU Free Documentation License](https://www.gnu.org/licenses/fdl-1.3.html) license.
+Published under [GNU Free Documentation License](https://www.gnu.org/licenses/fdl-1.3.html) license.

@@ -140,6 +140,6 @@ Use Jupyter notebooks (as a calculator) to solve the following two problems:
 
 <hr/>
 
-Published under [Creative Commons Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
+Published under [Creative Commons Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
 
 Based on a [lecture by Loreena Barba](https://github.com/engineersCode/EngComp1_offtheground) and VS Code documentation at <https://code.visualstudio.com/docs/datascience/jupyter-notebooks>.

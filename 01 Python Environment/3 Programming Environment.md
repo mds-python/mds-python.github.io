@@ -83,5 +83,5 @@ There are three other ways you can run Python code within VS Code:
 
 <hr/>
 
-Published under [Creative Commons Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.  
+Published under [Creative Commons Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.  
 Source: <https://code.visualstudio.com/docs/python/python-tutorial>
