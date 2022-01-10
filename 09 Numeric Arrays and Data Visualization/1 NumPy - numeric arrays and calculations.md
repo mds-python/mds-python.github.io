@@ -350,6 +350,20 @@ The third reason, and perhaps the most important, is the *library of numeric fun
 The ability to use code written in C or Fortran allows the use of old, optimized, proven solutions.
 
 
+## How to handle `ImportError: DLL load failed while importing _multiarray_umath` in Visual Studio Code
+
+If you are using Anaconda and try to import `numpy`, you may encounter an error:
+
+```
+ImportError: DLL load failed while importing _multiarray_umath: The specified module could not be found
+```
+
+It may happen if you have installed Anaconda without adding it to the system path. To solve it, you may try one of the following:
+
+1. Remove Anaconda and reinstall it, making sure you check the option **Add Anaconda to the system PATH environment variable**,ignoring the installer warning.
+
+2. In Visual Studio Code press `Ctrl+,` (control and comma) to open settings and type `python.terminal.activateEnvironment` in the search field in the settings panel. Next, check the box labeled **Activate Python Environment in Terminal created using the Extension**. Close all the existing terminals or restart the Visual Studio Code.
+
 <hr/>
 
 Published under [Creative Commons Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.  
