@@ -248,11 +248,30 @@ print(A >  2)
 # [[False False  True]
 #  [ True  True  True]]
 
-print(A[A > 2])
-# [3  4  5  6]
+print(A[A > 2])Holter
 
 print(A[A % 2 == 0])
 [2 4 6]
+```
+
+### Assigning new values to arrays
+
+You can use any of the above indexing method to set the values of the array, provided you assign a constant or an array with the right shape.
+
+Examples:
+
+```python
+A = np.array([[1,2,3], [4,1,1], [0,8,9]])
+print(A)
+
+A[1, 1:] = [5, 0]
+print(A)
+
+A[A == 0] = 6, 7
+print(A)
+
+A[A < 5] = 0
+print(A)
 ```
 
 More: <http://docs.scipy.org/doc/numpy/user/basics.indexing.html>
