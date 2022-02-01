@@ -1,3 +1,9 @@
+---
+parent: File Operations
+grand_parent: Programming for Modelling and Data Analysis
+nav_order:  2
+---
+
 # Writing to a file
 
 To write to a file, use the method `write` that takes the string to be written as an argument. It can be called for a file opened for writing (in mode `w` or `a`). This method can be called several times: each subsequent call will add data to the file. For example:

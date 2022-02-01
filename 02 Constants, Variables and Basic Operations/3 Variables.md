@@ -1,3 +1,9 @@
+---
+parent: Constants, Variables and Basic Operations
+grand_parent: Programming for Modelling and Data Analysis
+nav_order:  3
+---
+
 # Variables
 
 Writing any program would be impossible if the calculated values could not be saved. For this purpose we use **variables**.

@@ -1,3 +1,9 @@
+---
+parent: More on Variables
+grand_parent: Programming for Modelling and Data Analysis
+nav_order:  7
+---
+
 # String operations
 
 Strings are special kinds of sequences designed to hold strings. Therefore, they have a number of methods that allow you to perform useful operations on these strings. Their detailed description can be found in the Python documentation. Below is an overview of some of the most useful operations and methods for text strings:
@@ -148,9 +154,11 @@ print ("-" * width)
 
 In a format string, to insert a brace that you want to be treated as part of the text rather than the beginning of the expression, repeat it:
 
+ {% raw %}
 ```python
 f"This is a brace {{2 + 2}} and this is a brace expression {{{2 + 2}}}"
 ```
+ {% endraw %}
 
 In the above text, the expression marked in blue will be evaluated and the repeated braces will appear only once.
 

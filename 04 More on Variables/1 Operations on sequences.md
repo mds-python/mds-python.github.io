@@ -1,3 +1,9 @@
+---
+parent: More on Variables
+grand_parent: Programming for Modelling and Data Analysis
+nav_order:  1
+---
+
 # Operations on sequences
 
 So far, we have introduced two types that are sequences (containing ordered data): tuple (`tuple`) and string (`str`). You can iterate over each element with a for loop. Below is a description of other useful operations that we can perform on each sequence (not only on the two above, but also on the others, which will be introduced soon).

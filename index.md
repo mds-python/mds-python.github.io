@@ -1,3 +1,8 @@
+---
+has_children: true
+has_toc: false
+---
+
 # Programming for Modelling and Data Analysis
 
 ## Algorithms and Programs

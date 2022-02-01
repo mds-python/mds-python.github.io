@@ -1,8 +1,19 @@
-theme: jekyll-theme-slate
+title: MDS Python
+email: maciej.dems@p.lodz.pl
+description: >-
+  Lecture on Programming for Modellind and Data Analysis
+baseurl: ""
+url: https://mds-python.github.io/
+
+remote_theme: pmarsceill/just-the-docs
+color_scheme: tul
+
 plugins:
   - jekyll-relative-links
+
 relative_links:
   enabled: true
   collections: true
+
 exclude:
   - html.sed

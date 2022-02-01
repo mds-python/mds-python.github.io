@@ -1,3 +1,9 @@
+---
+parent: File Operations
+grand_parent: Programming for Modelling and Data Analysis
+nav_order:  1
+---
+
 # Opening files
 
 Virtually every computer program relies on reading and writing files to disk. These can be files containing the current configuration of the program, as well as files containing data processed by the program.

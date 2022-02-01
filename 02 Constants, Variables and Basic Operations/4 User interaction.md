@@ -1,3 +1,9 @@
+---
+parent: Constants, Variables and Basic Operations
+grand_parent: Programming for Modelling and Data Analysis
+nav_order:  4
+---
+
 # User interaction
 
 So far we have focused on the back-end part of the code (see [Kitchen and Dining Room](00%20Algorithms/3%20Frontend-backend)). In the simplest cases writing Python commands in a console or a Jupyter Notebook allows to see the result of the last evaluated expression. However, in full programs it does not work so. We need a way to interact with the user of our program. Later, when you have more experience, you may try to create some neat graphical user interface or use web pages for this purpose. However, for now we will stick with the simplest solution: the `print` and `input` functions.

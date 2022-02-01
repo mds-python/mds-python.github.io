@@ -1,3 +1,9 @@
+---
+parent: Modules
+grand_parent: Programming for Modelling and Data Analysis
+nav_order:  2
+---
+
 # Creating custom modules
 
 When writing more complex programs, we can create our own modules. This makes it possible to split the program into several files, which is desirable in the case of longer programs. In addition, we can collect frequently used functions into a single module and use them over and over again in various projects.

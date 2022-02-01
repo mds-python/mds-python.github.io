@@ -1,3 +1,9 @@
+---
+parent: Algorithms and Programs
+grand_parent: Programming for Modelling and Data Analysis
+nav_order:  1
+---
+
 # What is an algorithm?
 
 > **Ingredients:**

@@ -1,3 +1,9 @@
+---
+parent: Constants, Variables and Basic Operations
+grand_parent: Programming for Modelling and Data Analysis
+nav_order:  2
+---
+
 # Other types and logical operations
 
 ## None Type

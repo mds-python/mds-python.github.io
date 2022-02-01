@@ -1,3 +1,9 @@
+---
+parent: Algorithms and Programs
+grand_parent: Programming for Modelling and Data Analysis
+nav_order:  E
+---
+
 # Algorithmic thinking exercises
 
    Below you have a set of problems. In each one identify and name the necessary input, write precisely all the necessary steps (as in the examples shown earlier), and identify the algorithm result (the output).

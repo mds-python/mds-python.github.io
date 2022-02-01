@@ -1,3 +1,9 @@
+---
+parent: Constants, Variables and Basic Operations
+grand_parent: Programming for Modelling and Data Analysis
+nav_order:  1
+---
+
 # Constants and their types
 
 ## Constants

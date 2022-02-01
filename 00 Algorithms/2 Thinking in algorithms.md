@@ -1,3 +1,9 @@
+---
+parent: Algorithms and Programs
+grand_parent: Programming for Modelling and Data Analysis
+nav_order:  2
+---
+
 # Thinking in algorithms
 
 An important factor of computer programs written in a formal language is the fact that it must be inhumanly precise. Imagine, you ask someone ‘*Please close the window.*’ If there are two windows in the room and only one of them is open, the person will guess you are asking to close the window, which is open. However, computer executing your program is not so clever! Instead, you must give a set of formal instructions:

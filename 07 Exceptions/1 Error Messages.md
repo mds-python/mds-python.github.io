@@ -1,3 +1,9 @@
+---
+parent: Exceptions
+grand_parent: Programming for Modelling and Data Analysis
+nav_order:  1
+---
+
 # Error messages
 
 Each of you has certainly encountered error messages. For example, issuing the command in the console:
@@ -41,7 +47,7 @@ Traceback (most recent call last):
 ValueError: could not convert string to float: 'two'
 ```
 
-Python printed the so-called __traceback__, which is the function call stack. It should be read from the bottom: an error has occurred `ValueError`, i.e. a value error. We read in the error message that Python is not able to convert the text string `'two'` to a real number. Above, we find information that this error occurred in the second line of the file `temp.py` in the function `replace_number` (this line is rewritten below). In turn, this function was called on the fifth line in the main code of the module (without any function). Note that calling the function  `replace_number` on line four did not produce an error.
+Python printed the so-called **traceback**, which is the function call stack. It should be read from the bottom: an error has occurred `ValueError`, i.e. a value error. We read in the error message that Python is not able to convert the text string `'two'` to a real number. Above, we find information that this error occurred in the second line of the file `temp.py` in the function `replace_number` (this line is rewritten below). In turn, this function was called on the fifth line in the main code of the module (without any function). Note that calling the function  `replace_number` on line four did not produce an error.
 
 ## Exception types
 In Python, exceptions can be of different types that correspond to different types of errors or abnormal situations. The following is a list of the most common types of exceptions:

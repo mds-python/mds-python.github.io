@@ -1,3 +1,9 @@
+---
+parent: More on Variables
+grand_parent: Programming for Modelling and Data Analysis
+nav_order:  4
+---
+
 # Sets
 
 The last standard Python type that allows you to hold other elements is a `set`. Unlike a list, the elements in the set are not ordered (they do not have assigned indexes nor keys, as in a dictionary).

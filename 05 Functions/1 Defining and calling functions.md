@@ -1,3 +1,9 @@
+---
+parent: Functions
+grand_parent: Programming for Modelling and Data Analysis
+nav_order:  1
+---
+
 # Defining and calling functions
 
 A function is a separate piece of code that can be used multiple times in different places in the program. So far, the use of functions, such as print, len, range, etc. has been shown several times. You did not have to write it yourself, because it was already done by the creators of Python. It was enough to know how they work. Most functions require external information - numbers, texts, other objects - and they are given as arguments to the function. Most also return some result, which, for example, can be assigned to a variable or used directly in an expression.
@@ -230,7 +236,7 @@ def function(numbers=None):
     function body
 ```
 ## Recurrence
-A function can call itself to solve a problem. We call such a function a __recursive function__. Example calculating the factorial:
+A function can call itself to solve a problem. We call such a function a **recursive function**. Example calculating the factorial:
 
 ```python
 def factorial(n):
@@ -241,7 +247,7 @@ def factorial(n):
      else:
          return None
 ```
-For a recursive function to work properly, each subsequent call must be made for a different value of the argument controlling the the recurrence (in the example above it is `factorial(n-1)`). It must also be guaranteed to stop subsequent function calls when the value of this argument reaches a given value (in the example it will be for _n_ equal to 1).
+For a recursive function to work properly, each subsequent call must be made for a different value of the argument controlling the the recurrence (in the example above it is `factorial(n-1)`). It must also be guaranteed to stop subsequent function calls when the value of this argument reaches a given value (in the example it will be for *n* equal to 1).
 
 
 <hr/>

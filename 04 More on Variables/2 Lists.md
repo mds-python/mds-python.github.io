@@ -1,3 +1,9 @@
+---
+parent: More on Variables
+grand_parent: Programming for Modelling and Data Analysis
+nav_order:  2
+---
+
 # Lists
 
 There is a data type very similar to tuples in Python. These are  lists (`list`). Unlike tuples, which are constants, lists are structures that can change: you can add new elements to them, delete or change them.

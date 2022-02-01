@@ -1,3 +1,9 @@
+---
+parent: Python Environment
+grand_parent: Programming for Modelling and Data Analysis
+nav_order:  5
+---
+
 # Debugging your code
 
 A debugger is a computer program used to test and debug other programs (in our case Python scripts). The main use of a debugger is to run the target program under controlled conditions that permit the programmer to track its operations in progress and monitor changes in computer resources (most often memory areas used by the target program or the computer's operating system) that may indicate malfunctioning code. Typical debugging facilities include the ability to run or halt the target program at specific points and display its state.

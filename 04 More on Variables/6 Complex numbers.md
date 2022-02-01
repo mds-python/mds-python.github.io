@@ -1,3 +1,9 @@
+---
+parent: More on Variables
+grand_parent: Programming for Modelling and Data Analysis
+nav_order:  6
+---
+
 # Complex numbers
 
 Python has a type representing complex numbers natively (`complex`). It can be created by adding a symbol `j` to the real numbers to denote the imaginary part. For example:

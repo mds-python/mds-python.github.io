@@ -1,3 +1,9 @@
+---
+parent: Exceptions
+grand_parent: Programming for Modelling and Data Analysis
+nav_order:  2
+---
+
 # Catching exceptions
 
 Not all exceptional situations can be avoided during writing the program. For example, consider the following function:

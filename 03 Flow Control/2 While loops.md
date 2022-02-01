@@ -1,3 +1,9 @@
+---
+parent: Flow Control
+grand_parent: Programming for Modelling and Data Analysis
+nav_order:  2
+---
+
 # While loops
 
 To be useful any programming language must allow you to repeat a portion of a program more than once. These types of repetitions are called loops. There are two kinds of loops in Python. Below, we will discuss the first of them: the **while** loop. It is used to repeat a given block as long as a certain condition is met. This loop looks like this:
@@ -20,7 +26,7 @@ print("Your number is", number)
 
 In the above example, the user will be prompted to enter a `number` as long as the value of the variable number to which the value is assigned is either less than 1 or greater than 10.
 
-<u>The condition in the **while** loop is checked at the very beginning, before the loop is executed for the first time.</u> This means that the loop may not be executed even once if the condition is not met at the very beginning. Please note the first line of the example above `number = 0`. It defines a variable `number` and sets its value to zero, which guarantees that the first time it checks, the **while** loop will be true (0 < 1) i.e. the user will be prompted for a number at least once.
+<u>The condition in the <b>while</b> loop is checked at the very beginning, before the loop is executed for the first time.</u> This means that the loop may not be executed even once if the condition is not met at the very beginning. Please note the first line of the example above `number = 0`. It defines a variable `number` and sets its value to zero, which guarantees that the first time it checks, the **while** loop will be true (0 < 1) i.e. the user will be prompted for a number at least once.
 
 ## Breaking the loop
 

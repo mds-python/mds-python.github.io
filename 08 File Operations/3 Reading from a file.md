@@ -1,3 +1,9 @@
+---
+parent: File Operations
+grand_parent: Programming for Modelling and Data Analysis
+nav_order:  3
+---
+
 # Reading from a file
 
 Reading a file can be done in several ways. The easiest way is to use a method `read` that will read the contents of the entire file into a variable of type `str` (in case of opening the file in binary it will be of type `bytes`). For example

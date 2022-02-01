@@ -1,3 +1,9 @@
+---
+parent: Numeric Arrays and Data Visualization
+grand_parent: Programming for Modelling and Data Analysis
+nav_order:  2
+---
+
 # Matplotlib: data visualization
 
 ## Introduction to Matplotlib
@@ -27,11 +33,11 @@ How does it work?
 
 To use the Matplotlib graphics package we import it into our program with a command `import`.
 
-The `pyplot` subpackage is one of a few slightly different _interfaces_ to Matplotlib: i.e. ways to use of its functionality. Another, also frequently used, is named `pylab` and can be imported directly (`import pylab`). Pyplot is probably a bit more flexible, although for the simplest examples — the ones we're going to cover here — there is no significant difference.
+The `pyplot` subpackage is one of a few slightly different *interfaces* to Matplotlib: i.e. ways to use of its functionality. Another, also frequently used, is named `pylab` and can be imported directly (`import pylab`). Pyplot is probably a bit more flexible, although for the simplest examples — the ones we're going to cover here — there is no significant difference.
 
 We produce two lists `x` and `y` containing sequences of numbers 1, 2, 3 and 4, 6, 5.
 
-The function `plot` draws a graph and places points on it with coordinates contained in the lists passed to it as arguments. The first argument contains the horizontal (_x_) coordinates of the successive points, and the second argument the vertical (_y_) coordinates of the successive points on the plot. Since the lists have three items each, the graph will contain three points with the coordinates (1, 4), (2, 6) and (3, 5). By default, the points on the graph are connected with each other by a solid line. This, of course, can be changed: by adding optional parameters to the `plot` function you can get a line of a different color, a dashed line, a line with dots, or no line at all — but, for example, large dots (triangles, stars, etc.) in places corresponding to data points.
+The function `plot` draws a graph and places points on it with coordinates contained in the lists passed to it as arguments. The first argument contains the horizontal (*x*) coordinates of the successive points, and the second argument the vertical (*y*) coordinates of the successive points on the plot. Since the lists have three items each, the graph will contain three points with the coordinates (1, 4), (2, 6) and (3, 5). By default, the points on the graph are connected with each other by a solid line. This, of course, can be changed: by adding optional parameters to the `plot` function you can get a line of a different color, a dashed line, a line with dots, or no line at all — but, for example, large dots (triangles, stars, etc.) in places corresponding to data points.
 
 After calling the function, the  plot graph does not appear on the screen yet. To show it, we use the functions `show. If you run the code interactively in Visual Studio Code, the graph will be embedded in the output console.  If you run it as a script, the graph appears on the screen in a separate window, and Python waits until the graph window is closed to execute the next instructions.
 
@@ -61,7 +67,7 @@ A function `arange` is similar to a standard function `range` that produces a ce
 
 This function `sin` is used to calculate the value of the sine function for the argument given in radians. And what is the argument of this function? It is our array multiplied by 2_π_. As you should recall from the previous lecture, multiplication of a number and an array gives an array. This means that the argument of the function `sin` is not a number but an array! Thus, the variable `y` contains a sequence of values ​​of the sine functions calculated for the values ​​contained in the variable `x` multiplied by 2_π_ each (i.e. sin(2_π_ × 0), sin(2_π_ × 0.01), sin(2_π_ × 0.02), ..., sin(2_π_ × 1.98), sin(2_π_ × 1.99)).
 
-The function `plot(x, y)` draws a set of points with the coordinates (_x_, sin(2_πx_)) connected by a solid line.
+The function `plot(x, y)` draws a set of points with the coordinates (*x*, sin(2_πx_)) connected by a solid line.
 
 Let's improve the chart:
 
@@ -124,7 +130,7 @@ plt.show()
 
 How does it work?
 
-We can draw many graphs in one coordinate system. We do it by specifying in one command `plot` the sets of parameters describing individual lines: _x_ coordinates, _y_ coordinates, line style. To easily identify lines, you can add a legend using the command `legend()`. To find out control the appearance and location of the legend, please refer to the [documentation](https://matplotlib.org/3.3.2/api/_as_gen/matplotlib.pyplot.legend.html).
+We can draw many graphs in one coordinate system. We do it by specifying in one command `plot` the sets of parameters describing individual lines: *x* coordinates, *y* coordinates, line style. To easily identify lines, you can add a legend using the command `legend()`. To find out control the appearance and location of the legend, please refer to the [documentation](https://matplotlib.org/3.3.2/api/_as_gen/matplotlib.pyplot.legend.html).
 
 In every string (in labels, title, legend, etc.) you can use `$` characters to write mathematical expression using [LaTeX notation](https://matplotlib.org/tutorials/text/mathtext.html) (in such case, you should prepend the string with the `r` prefix, so the character `\` is not interpretted by Python).
 
@@ -172,7 +178,7 @@ plt.show()
 ![svg](output_17_0.svg)
 
 
-We assign a sequence with manually specified values to the variable `counts`. The range of variability of the counts studied (put on the _x_-axis) will be divided into  bins of the same “width”; the default will be 10. The function `hist()` counts the occurrences of values ​​in bins and draws a histogram. This function returns a tuple (array with counts, array with bins, list with rectangles that the histogram draws, so-called _Patch objects_).
+We assign a sequence with manually specified values to the variable `counts`. The range of variability of the counts studied (put on the *x*-axis) will be divided into  bins of the same “width”; the default will be 10. The function `hist()` counts the occurrences of values ​​in bins and draws a histogram. This function returns a tuple (array with counts, array with bins, list with rectangles that the histogram draws, so-called *Patch objects*).
 
 In additional arguments we specify face and edge colors of the histogram rectangles, using [HTML color coding](https://html-color-codes.info/).
 
@@ -227,7 +233,7 @@ plt.show()
 
 Drawing a data curve in parametric form is not much different than drawing a graph of a function. To make it more fun, I will also make a Monte Carlo calculation and its visualization.
 
-The curve we're going to draw here is called the [lemniscate of Gerono](https://en.wikipedia.org/wiki/Lemniscate_of_Gerono). It will be additionally surrounded with the unit circle; then, we will draw a large number of evenly distributed points in the square described in this circle. We do this because it is easy to draw an array of many numbers from the range (0, 1): there is a function ready for that `numpy.random.random`, then scale it and move it to line segment (-1, 1). Finally, by treating them as pairs of coordinates (_x_, _y_), we leave only those inside the unit circle (discarding the rest) and divide them into those inside the lemniscate and those outside.
+The curve we're going to draw here is called the [lemniscate of Gerono](https://en.wikipedia.org/wiki/Lemniscate_of_Gerono). It will be additionally surrounded with the unit circle; then, we will draw a large number of evenly distributed points in the square described in this circle. We do this because it is easy to draw an array of many numbers from the range (0, 1): there is a function ready for that `numpy.random.random`, then scale it and move it to line segment (-1, 1). Finally, by treating them as pairs of coordinates (*x*, *y*), we leave only those inside the unit circle (discarding the rest) and divide them into those inside the lemniscate and those outside.
 
 Intuitively, it is quite clear that — as long as we have drawn the points really evenly — the ratio of the number of "hits" to the area bounded by the lemniscate to the number of all "hits" to the area of ​​the circle will be approximately equal to the ratio of the areas of these areas. And here we will stop there; how accurate this approximation can be, or what error we can expect, is a problem for other classes...
 
@@ -322,7 +328,7 @@ plt.show()
 ![svg](output_28_0.svg)
 
 
-The result of the call to `imread(filename)` is an array of the shape (_height_, _width_, 3) containing for each pixel of the image the values ​​of its RGB components, i.e. the intensities of red, green and blue colors, as numbers in the range from 0 to 255, inclusive. The `imshow(arr)` shows an image stored in such an array.
+The result of the call to `imread(filename)` is an array of the shape (*height*, *width*, 3) containing for each pixel of the image the values ​​of its RGB components, i.e. the intensities of red, green and blue colors, as numbers in the range from 0 to 255, inclusive. The `imshow(arr)` shows an image stored in such an array.
 
 Of course, on the array read by `imread` we can perform various operations, analyzing the content of the image or transforming it. For example:
 

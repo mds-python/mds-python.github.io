@@ -1,3 +1,9 @@
+---
+parent: Python Environment
+grand_parent: Programming for Modelling and Data Analysis
+nav_order:  3
+---
+
 # Programming Environment
 
 You can write your Python programs in a Notepad or any text file editor. However, I strongly discourage to do so. It is much better, to use some programming environment. There is plenty of such environments that you can use with Python, e.g. Spyder, PyCharm, Visual Studio, Visual Studio Code...

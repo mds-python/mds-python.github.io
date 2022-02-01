@@ -1,3 +1,9 @@
+---
+parent: More on Variables
+grand_parent: Programming for Modelling and Data Analysis
+nav_order:  8
+---
+
 # Variables and variable types
 
 Lists and dictionaries are variable types. This means that you can add, remove and change their elements. In the topic about variables, it was explained that a variable is a label: several different variables can point to the same object.

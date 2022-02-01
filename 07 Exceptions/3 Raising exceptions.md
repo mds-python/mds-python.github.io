@@ -1,3 +1,9 @@
+---
+parent: Exceptions
+grand_parent: Programming for Modelling and Data Analysis
+nav_order:  3
+---
+
 # Raising exceptions
 
 It may happen that we want to report an exception ourselves. For example, consider an integer input function:

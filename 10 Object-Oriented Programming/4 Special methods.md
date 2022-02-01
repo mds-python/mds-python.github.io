@@ -1,3 +1,9 @@
+---
+parent: Object-Oriented Programming
+grand_parent: Programming for Modelling and Data Analysis
+nav_order:  4
+---
+
 # Special methods
 
 ## Arithmetical operations

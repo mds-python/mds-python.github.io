@@ -1,3 +1,9 @@
+---
+parent: Flow Control
+grand_parent: Programming for Modelling and Data Analysis
+nav_order:  3
+---
+
 # For loops
 
 Another type of loop in Python is the for loop. It is used when we are able to predict in advance how many times we want to perform this loop, or when we want to repeat it for each element of the sequence. The for loop syntax is as follows:

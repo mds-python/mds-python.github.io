@@ -1,3 +1,9 @@
+---
+parent: Functions
+grand_parent: Programming for Modelling and Data Analysis
+nav_order:  2
+---
+
 # Functions with arbitrary arguments
 
 In Python, it is possible to create functions with any number of arguments, not specified in advance. For this purpose, when defining the function, we give a special argument `*args` (an asterisk `*` at the beginning is the important part: the name can be anything, but it is customary to use _args_ and I recommend sticking to this convention):

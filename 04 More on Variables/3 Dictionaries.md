@@ -1,3 +1,9 @@
+---
+parent: More on Variables
+grand_parent: Programming for Modelling and Data Analysis
+nav_order:  3
+---
+
 # Dictionaries
 
 Normal lists (arrays) are usually a collection of numbered elements, so to refer to any list element you must enter its number. But identifying elements by numbers aren't always convenient. For example, flight numbers are identified by an alpha-numeric code. Similarly, bus numbers in Łódź may contain letters.

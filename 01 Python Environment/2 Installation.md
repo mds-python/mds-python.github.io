@@ -1,3 +1,9 @@
+---
+parent: Python Environment
+grand_parent: Programming for Modelling and Data Analysis
+nav_order:  2
+---
+
 # Installation
 
 As described in the introduction, the Python compiler can be downloaded and installed directly from python.org. However, it will then be necessary to manually install the required libraries for engineering and scientific calculations. Hence, this way is not recommended. Please follow the instructions below, depending on your operating system:

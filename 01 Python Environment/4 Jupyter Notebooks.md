@@ -1,3 +1,9 @@
+---
+parent: Python Environment
+grand_parent: Programming for Modelling and Data Analysis
+nav_order:  4
+---
+
 # Fast prototyping with Jupyter Notebooks
 
 ## What is Jupyter?

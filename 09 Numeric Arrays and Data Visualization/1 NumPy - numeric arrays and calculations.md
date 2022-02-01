@@ -1,12 +1,18 @@
+---
+parent: Numeric Arrays and Data Visualization
+grand_parent: Programming for Modelling and Data Analysis
+nav_order:  1
+---
+
 # NumPy: numeric arrays and calculations
 
 ## NumPy Package
 
-The [NumPy](http://numpy.scipy.org/) module is the basic toolset for Python enabling advanced mathematical calculations, especially for scientific applications (so-called _numerical calculations_, such as matrix multiplication and addition, diagonalization and inversion, integration, equation solving, etc.). It gives us specialized data types, operations and functions that are not available in a typical Python installation. Another module, [Scipy](http://scipy.org/) allows access to more complex and diverse scientific algorithms using the tools provided by NumPy.
+The [NumPy](http://numpy.scipy.org/) module is the basic toolset for Python enabling advanced mathematical calculations, especially for scientific applications (so-called _, such as matrix multiplication and addition, diagonalization and inversion, integration, equation solving, etc.). It gives us specialized data types, operations and functions that are not available in a typical Python installation. Another module, [Scipy](http://scipy.org/) allows access to more complex and diverse scientific algorithms using the tools provided by NumPy.
 
 We will only provide an introduction to NumPy here. This is because describing the numerous features available in the NumPy library is a huge piece of work that makes no sense at all: you might as well have a look directly at its original documentation at <http://docs.scipy.org/doc/numpy/reference/>.
 
-The most important variable type, which NumPy and other packages that use it rely is the `ndarray` class, often referred to as `array`. We can treat `array` objects as universal containers for data in the form of _matrices_ (i.e. _vectors_ or _arrays_). Compared to the standard types of Python sequences (`list`, `tuple`), there are a few differences in handling these objects:
+The most important variable type, which NumPy and other packages that use it rely is the `ndarray` class, often referred to as `array`. We can treat `array` objects as universal containers for data in the form of *matrices* (i.e. *vectors* or *arrays*). Compared to the standard types of Python sequences (`list`, `tuple`), there are a few differences in handling these objects:
 
 1. the objects stored in the `array` must all be of the same type;
 2. `array` objects keep their size; when such an object is resized, a new object is created and the original object is deleted;
@@ -15,7 +21,7 @@ The most important variable type, which NumPy and other packages that use it rel
 
 ## Creating arrays
 
-The easiest way to create a NumPy array is to call the function `array` with a list of numbers as an argument. If, instead of a list of numbers, we use a list containing other lists (so-called _nested list_), we will get a multidimensional array. For example, if the lists are double-nested, we get a two-dimensional array (_matrix_).
+The easiest way to create a NumPy array is to call the function `array` with a list of numbers as an argument. If, instead of a list of numbers, we use a list containing other lists (so-called *nested list*), we will get a multidimensional array. For example, if the lists are double-nested, we get a two-dimensional array (*matrix*).
 
 For example:
 
@@ -101,7 +107,7 @@ As you may have noticed, NumPy arrays can have a different number of dimensions:
 
 * a one-dimensional array `A` is an equivalent of a vector, its elements `A[k]` are numbered with the value of a single index (pointer), ranging from `0` to `len(A) - 1` - similar to a list in “normal” Python
 * a two-dimensional array, say `M`, is the equivalent of a matrix with elements `M[k,l]`; if `k = 0, ...K`, `l = 0, ...L`, then it has `K * L` elements
-* in general, to describe a _shape_ of a NumPy array, a tuple of positive integers is given describing the range of values ​​of its individual indices (and the number of elements of the tuple is, of course, the number of array dimensions). This tuple can be read using the attribute `M.shape`:
+* in general, to describe a *shape* of a NumPy array, a tuple of positive integers is given describing the range of values ​​of its individual indices (and the number of elements of the tuple is, of course, the number of array dimensions). This tuple can be read using the attribute `M.shape`:
 
 ```python
 M = np.array([[0.61064052, 0.51970673, 0.06353282],
@@ -146,7 +152,7 @@ but then we change the shape of the existing array. Naturally, also in this case
 
 ## Arrays as views of the data
 
-In Python, operations with mutable types (for example, lists that can change their content while retaining their identity) can either change the content of an object, or create a new object with content based on the original content. If _the same object_ appears under different names, then all such instances are identical. In NumPy it is a bit different: arrays transformed in various ways (e.g. by an operation `reshape()`) often turn out to be different views (for Python they are **different objects**) of **the same data**. For example:
+In Python, operations with mutable types (for example, lists that can change their content while retaining their identity) can either change the content of an object, or create a new object with content based on the original content. If *the same object* appears under different names, then all such instances are identical. In NumPy it is a bit different: arrays transformed in various ways (e.g. by an operation `reshape()`) often turn out to be different views (for Python they are **different objects**) of **the same data**. For example:
 
 
 ```python

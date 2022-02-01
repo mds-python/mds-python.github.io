@@ -1,3 +1,9 @@
+---
+parent: More on Variables
+grand_parent: Programming for Modelling and Data Analysis
+nav_order:  5
+---
+
 # Two remarks about iteration over sequences
 
 ## Item numbering in a loop

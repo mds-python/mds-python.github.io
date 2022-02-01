@@ -1,3 +1,9 @@
+---
+parent: Algorithms and Programs
+grand_parent: Programming for Modelling and Data Analysis
+nav_order:  3
+---
+
 # Kitchen and Dining Room
 
 Imagine you run a classical restaurant. Regardless of the type of food you are serving (whether it is classical Polish *schabowy* or Italian pasta), it should consist of at least two rooms: a dining room, where your customers place orders and later eat your delicious dish. Another room is the kitchen, where the cooks run here and there preparing these meals. Unless your restaurant is a modern hipster place, where the food is prepared in front of the customers (it is not, as you cannot afford for elegant dress for your cooks), the *kitchen* should be separated from the *dining room*! This way, your customers can enjoy their meals without constant noise of buzzing pots.

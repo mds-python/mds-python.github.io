@@ -1,3 +1,9 @@
+---
+parent: Modules
+grand_parent: Programming for Modelling and Data Analysis
+nav_order:  1
+---
+
 # Using Python modules
 
 Standard Python provides a very wide range of functions and objects that allow you to easily perform various advanced operations. This makes writing Python programs much easier than using other popular programming languages ​​such as C++. The most common and frequently used functions (e.g. `print`, `input`, `len`, and `range`) are always available. They are so-called _built-in_ functions. However, the vast majority are grouped in _packages_ and _modules_ that must be _imported_ when needed.

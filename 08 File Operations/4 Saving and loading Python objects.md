@@ -1,3 +1,9 @@
+---
+parent: File Operations
+grand_parent: Programming for Modelling and Data Analysis
+nav_order:  4
+---
+
 # Saving and loading Python objects
 
 So far, manual saving and reading of file contents has been described. This is useful if you want to operate on files with data and results saved in plain text. However, if we want to write/read the content of any Python variables (e.g. to save the state of the program), manual text creation and its interpretation can be cumbersome.
