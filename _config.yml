@@ -8,6 +8,8 @@ url: https://mds-python.github.io/
 remote_theme: pmarsceill/just-the-docs
 color_scheme: tul
 
+markdown: kramdown
+
 plugins:
   - jekyll-relative-links
 

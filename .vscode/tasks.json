@@ -1,0 +1,83 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build Jekyll",
+      "type": "shell",
+      "command": "bundle exec jekyll build",
+      "problemMatcher": [
+        {
+          "severity": "warning",
+          "fileLocation": "relative",
+          "pattern": {
+            "regexp": "^\\s*Liquid Warning: Liquid (?:syntax )?error \\(line (\\d+)\\): (.+) in (.+)$",
+            "line": 1,
+            "message": 2,
+            "file": 3
+          }
+        },
+        {
+          "severity": "error",
+          "fileLocation": "relative",
+          "pattern": {
+            "regexp": "^\\s*Liquid Exception: Liquid (?:syntax )?error \\(line (\\d+)\\): (.+) in (.+)$",
+            "line": 1,
+            "message": 2,
+            "file": 3
+          }
+        }
+      ],
+      "isBackground": true,
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },    
+    {
+      "label": "Run Jekyll",
+      "type": "shell",
+      "command": "bundle exec jekyll serve",
+      "problemMatcher": [
+        {
+          "owner": "jekyll-warning",
+          "severity": "warning",
+          "fileLocation": "relative",
+          "pattern": {
+            "regexp": "^\\s*Liquid Warning: Liquid (?:syntax )?error \\(line (\\d+)\\): (.+) in (.+)$",
+            "line": 1,
+            "message": 2,
+            "file": 3
+          },
+          "background": {
+            "activeOnStart": true,
+            "beginsPattern": "^\\s*Regenerating: ",
+            "endsPattern": "^\\s*(?:\\.\\.\\.)?done in "
+          }
+        },
+        {
+          "owner": "jekyll-error",
+          "severity": "error",
+          "fileLocation": "relative",
+          "pattern": {
+            "regexp": "^\\s*Liquid Exception: Liquid (?:syntax )?error \\(line (\\d+)\\): (.+) in (.+)$",
+            "line": 1,
+            "message": 2,
+            "file": 3
+          },
+          "background": {
+            "activeOnStart": true,
+            "beginsPattern": "^\\s*Regenerating: ",
+            "endsPattern": "^\\s*(?:\\.\\.\\.)?done in "
+          }
+        }
+      ],
+      "isBackground": true,
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}

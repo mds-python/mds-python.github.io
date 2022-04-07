@@ -11,5 +11,9 @@
         "editor.wordWrapColumn": 132,
         "editor.wordWrap": "bounded",
         "editor.quickSuggestions": false
-    }
+    },
+    "emmet.includeLanguages":{
+        "jekyll": "html",
+        "scss": "css"
+      }
 }

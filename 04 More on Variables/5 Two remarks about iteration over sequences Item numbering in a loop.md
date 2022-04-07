@@ -10,7 +10,7 @@ nav_order:  5
 
 Sometimes there is a need to iterate through the sequence of a set and number them simultaneously. This can be done as follows:
 
-<div style="text-decoration: line-through;" onmouseover="this.style.textDecoration='none'" onmouseout="this.style.textDecoration='line-through'">
+<div style="text-decoration: line-through;" onmouseover="this.style.textDecoration='none'" onmouseout="this.style.textDecoration='line-through'" markdown="1">
 
 ```python
 number = 0

@@ -26,7 +26,7 @@ Additionally, we can add a `b` character to the selected mode. It means opening 
 
 The function `open` returns a variable of the file type , which is a special type used to interact with an open file (it will be discussed in detail in the next part of the lecture). After reading/writing data is completed, the file should be *closed*. It is necessary especially in the case of writing, because otherwise we have no guarantee that the data will be actually written to the disk (to increase the performance, Python and the operating system use *caching*: the content of the file is stored in the operating memory and only when it is closed, it is actually written to disk). To close the file, use the method `file.close()`. E.g:
 
-<div style="text-decoration: line-through;" onmouseover="this.style.textDecoration='none'" onmouseout="this.style.textDecoration='line-through'">
+<div style="text-decoration: line-through;" onmouseover="this.style.textDecoration='none'" onmouseout="this.style.textDecoration='line-through'" markdown="1">
 
 ```python
 file = open ('data.txt', 'w')
