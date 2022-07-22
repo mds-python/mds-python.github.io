@@ -10,10 +10,14 @@
     "[markdown]": {
         "editor.wordWrapColumn": 132,
         "editor.wordWrap": "bounded",
-        "editor.quickSuggestions": false
+        "editor.quickSuggestions": {
+            "comments": "off",
+            "strings": "off",
+            "other": "off"
+        }
     },
     "emmet.includeLanguages":{
         "jekyll": "html",
         "scss": "css"
-      }
+    }
 }
