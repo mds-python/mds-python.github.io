@@ -254,10 +254,11 @@ print(A >  2)
 # [[False False  True]
 #  [ True  True  True]]
 
-print(A[A > 2])Holter
+print(A[A > 2])
+# [3 4 5 6]
 
 print(A[A % 2 == 0])
-[2 4 6]
+# [2 4 6]
 ```
 
 ### Assigning new values to arrays
