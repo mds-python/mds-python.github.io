@@ -72,22 +72,28 @@ has_toc: false
 * [Saving and loading Python objects](08%20File%20Operations/4%20Saving%20and%20loading%20Python%20objects)
 * Exercise: [Verification](https://github.com/mds-python/verification)
 
+## Classes and Objects
+
+* [A Problem](09%20Classes%20and%20Objects/1%20A%20problem)
+* [Classes and objects to organize your code](09%20Classes%20and%20Objects/2%20Classes%20and%20objects%20to%20organize%20your%20code)
+* [Custom data types](09%20Classes%20and%20Objects/3%20Custom%20data%20types)
+* [Special methods](09%20Classes%20and%20Objects/4%20Special%20methods)
+* Exercise: [Fractions](https://github.com/mds-python/fractions)
+
 Project 1: [Hangman](https://github.com/mds-python/hangman)
 
 ## Numeric Arrays and Data Visualization
 
-* [NumPy: numeric arrays and calculations](09%20Numeric%20Arrays%20and%20Data%20Visualization/1%20NumPy%20-%20numeric%20arrays%20and%20calculations)
+* [NumPy: numeric arrays and calculations](10%20Numeric%20Arrays%20and%20Data%20Visualization/1%20NumPy%20-%20numeric%20arrays%20and%20calculations)
 * Exercise: [NumPy](https://github.com/mds-python/numpy)
-* [Matplotlib: data visualization](09%20Numeric%20Arrays%20and%20Data%20Visualization/2%20Matplotlib%20-%20data%20visualization)
+* [Matplotlib: data visualization](10%20Numeric%20Arrays%20and%20Data%20Visualization/2%20Matplotlib%20-%20data%20visualization)
 * Exercise [Billiards](https://github.com/mds-python/billiards)
 
 ## Object-Oriented Programming
 
-* [Classes and objects](10%20Object-Oriented%20Programming/1%20Classes%20and%20objects)
-* [Understanding class and instance variables](10%20Object-Oriented%20Programming/2%20Understanding%20class%20and%20instance%20variables)
-* [Understanding class inheritance](10%20Object-Oriented%20Programming/3%20Understanding%20class%20inheritance)
-* [Special methods](10%20Object-Oriented%20Programming/4%20Special%20methods)
-* Exercise: [Fractions](https://github.com/mds-python/fractions)
+* [Classes and objects](11%20Object-Oriented%20Programming/1%20Classes%20and%20objects)
+* [Understanding class and instance variables](11%20Object-Oriented%20Programming/2%20Understanding%20class%20and%20instance%20variables)
+* [Understanding class inheritance](11%20Object-Oriented%20Programming/3%20Understanding%20class%20inheritance)
 
 Project 2: [Game of Life](https://github.com/mds-python/game-of-life)
 

@@ -1,10 +1,10 @@
 ---
-parent: Object-Oriented Programming
+parent: Classes and Objects
 grand_parent: Programming for Modelling and Data Analysis
-nav_order:  4
+nav_order:  3
 ---
 
-# Special methods
+# Custom data types
 
 ## Arithmetical operations
 
@@ -58,7 +58,6 @@ class Fraction:
 ```
 
 Now we can write:
-
 
 ```python
 x = Fraction(1, 2)

@@ -4,4 +4,4 @@ has_children: true
 nav_order:  10
 ---
 
-# Object-Oriented Programming
+# Numeric Arrays and Data Visualization
