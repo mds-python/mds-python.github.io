@@ -72,13 +72,11 @@ has_toc: false
 * [Saving and loading Python objects](08%20File%20Operations/4%20Saving%20and%20loading%20Python%20objects)
 * Exercise: [Verification](https://github.com/mds-python/verification)
 
-## Classes and Objects
+## Classes and Objects: Basis
 
-* [A Problem](09%20Classes%20and%20Objects/1%20A%20problem)
-* [Classes and objects to organize your code](09%20Classes%20and%20Objects/2%20Classes%20and%20objects%20to%20organize%20your%20code)
-* [Custom data types](09%20Classes%20and%20Objects/3%20Custom%20data%20types)
-* [Special methods](09%20Classes%20and%20Objects/4%20Special%20methods)
-* Exercise: [Fractions](https://github.com/mds-python/fractions)
+* [A Problem](09%20Classes%20and%20Objects%20Basis/1%20A%20problem)
+* [Classes and objects](09%20Classes%20and%20Objects%20Basis/2%20Classes%20and%20objects)
+* [Custom data types](09%20Classes%20and%20Objects%20Basis/3%20Custom%20data%20types)
 
 Project 1: [Hangman](https://github.com/mds-python/hangman)
 
@@ -89,11 +87,11 @@ Project 1: [Hangman](https://github.com/mds-python/hangman)
 * [Matplotlib: data visualization](10%20Numeric%20Arrays%20and%20Data%20Visualization/2%20Matplotlib%20-%20data%20visualization)
 * Exercise [Billiards](https://github.com/mds-python/billiards)
 
-## Object-Oriented Programming
+## Classes and Objects: Intermediate
 
-* [Classes and objects](11%20Object-Oriented%20Programming/1%20Classes%20and%20objects)
-* [Understanding class and instance variables](11%20Object-Oriented%20Programming/2%20Understanding%20class%20and%20instance%20variables)
-* [Understanding class inheritance](11%20Object-Oriented%20Programming/3%20Understanding%20class%20inheritance)
+* [Special methods](11%20Classes%20and%20Objects%20Intermediate/1%20Special%20methods)
+* Exercise: [Fractions](https://github.com/mds-python/fractions)
+* [Class inheritance](11%20Classes%20and%20Objects%20Intermediate/2%20Class%20inheritance)
 
 Project 2: [Game of Life](https://github.com/mds-python/game-of-life)
 

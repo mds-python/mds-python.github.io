@@ -1,10 +1,10 @@
 ---
-parent: Classes and Objects
+parent: "Classes and Objects: Basis"
 grand_parent: Programming for Modelling and Data Analysis
 nav_order:  2
 ---
 
-# Classes and objects to organize your code
+# Classes and objects
 
 The problem described in the previous chapter can be summarized as follows: how to combine together all the variables describing each player's state and how to operate on them. Python has neat solution for this using a concept of classes and objects. Classes are general concepts of an entity, its state and what it can do (in our case this will be **a** player), while objects are specific instances of these concepts (**the** players: *Alfred*, *Beatrice*, *Charlie*).
 
@@ -81,7 +81,7 @@ class Player:
 
 
 def ask(player):
-    # This function is part on the input-output,
+    # This function is part of the input-output,
     # so it should not be in the `Player` class
     while True:
         answer = input(f"{player.name}, do you want to keep rolling? [y/n]: ").lower()

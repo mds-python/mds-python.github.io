@@ -1,5 +1,5 @@
 ---
-parent: Classes and Objects
+parent: "Classes and Objects: Basis"
 grand_parent: Programming for Modelling and Data Analysis
 nav_order:  1
 ---

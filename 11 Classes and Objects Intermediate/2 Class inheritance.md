@@ -1,7 +1,7 @@
 ---
-parent: Object-Oriented Programming
+parent: "Classes and Objects: Intermediate"
 grand_parent: Programming for Modelling and Data Analysis
-nav_order:  3
+nav_order:  2
 ---
 
 # Understanding Class Inheritance

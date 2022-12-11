@@ -18,8 +18,9 @@ class Player:
         return dice, score
 
 
-# This function is part on the input-output, so it should not be in the `Player` class
 def ask(player):
+    # This function is part of the input-output,
+    # so it should not be in the `Player` class
     while True:
         answer = input(f"{player.name}, do you want to keep rolling? [y/n]: ").lower()
         if answer in 'yn':

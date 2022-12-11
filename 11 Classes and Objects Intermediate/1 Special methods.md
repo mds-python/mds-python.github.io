@@ -1,30 +1,14 @@
 ---
-parent: Classes and Objects
+parent: "Classes and Objects: Intermediate"
 grand_parent: Programming for Modelling and Data Analysis
-nav_order:  3
+nav_order:  1
 ---
 
-# Custom data types
+# Special methods
 
 ## Arithmetical operations
 
-Consider a class defining a fraction. It should have two attributes, *nominator* (named shortly `nom`) and *denominator* (`denom`):
-
-```python
-class Fraction:
-    def __init__(self, nom, denom):
-        self.nom = nom
-        self.denom = denom
-```
-
-It is possible to perform mathematical operations on fractions, like addition, subtraction, multiplication and division. Let's define a function `mul` that takes two fractions, multiplies them, and returns a `Fraction` instance, which is their factor:
-
-```python
-def mul(a, b):
-    return Fraction(a.nom * b.nom, a.denom * b.denom)
-```
-
-Actually this function is specific for fractions only. So, in order to keep things together, it is better to make it a method in a fraction:
+Let's go back to our [`Fraction` class](../09%20Classes%20and%20Objects%20Basis/3%20Custom%20data%20types):
 
 ```python
 class Fraction:
@@ -36,16 +20,7 @@ class Fraction:
         return Fraction(self.nom * self.nom, self.denom * self.denom)
 ```
 
-We may use this method as follows:
-
-```python
-x = Fraction(1, 2)
-y = Fraction(5, 6)
-
-z = x.mul(y)
-```
-
-The last line does not look good. It would be much more clear if we were able to write `c = a * b`. In fact we can. Let's rename the method `mul` to `__mul__` (two underscored in the beginning and the end, like in `__init__`):
+Such formulation allows us to multiply two fractions in an ugly way `c = a.mul(b)`. It would be much more clear if we were able to write `c = a * b`. In fact we can. Let's rename the method `mul` to `__mul__` (two underscored in the beginning and the end, like in `__init__`):
 
 ```python
 class Fraction:
@@ -63,7 +38,7 @@ Now we can write:
 x = Fraction(1, 2)
 y = Fraction(5, 6)
 
-z = a * b
+z = x * y
 ```
 
 Methods with two underscores in the beginning and the end are [*special methods*](https://diveintopython3.net/special-method-names.html). Generally you never invoke them directly. For example, you never call the `__init__` method explicitly. It is automatically invoked on instance creation. `__mul__` is another such method and it is called when two objects are multiplied.
@@ -155,7 +130,7 @@ Some other special functions that are very useful are comparisons. Fractions can
 > class Fraction:
 >     def __init__(self, nom, denom):
 >         r = gcd(nom, denom)
->         self.nom = nom // r       # we use // for integer division
+>         self.nom = nom // r      # we use // for integer division
 >         self.denom = denom // r
 >
 >     def __str__(self):
@@ -166,9 +141,6 @@ Some other special functions that are very useful are comparisons. Fractions can
 > ```
 >
 > Also in the constructor you can do more sanitizations, like checking if the denominator is not 0 (and raising `ValueError` in such case), making sure that the denominator is always positive (and the sign of the nominator is adjusted accordingly), etc.
-
-
-
 
 <hr/>
 
