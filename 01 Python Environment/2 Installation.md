@@ -16,11 +16,9 @@ In every Linux distribution Python is installed by default. Just make sure you h
 
 ## Windows
 
-In Windows, the simplest solution is to install [Anaconda](https://www.anaconda.com/distribution/) environment, which already includes all the necessary libraries and a set of additional tools. Go to <https://www.anaconda.com/products/individual#Downloads> and download **Python 3.9**.
+In Windows, the simplest solution is to install [Anaconda](https://www.anaconda.com/distribution/) environment, which already includes all the necessary libraries and a set of additional tools. Go to <https://www.anaconda.com/products/individual#Downloads> and download the installer.
 
-After downloading the installer, run it. You can leave the default settings. However, I suggest that during installation you make sure that the **All users** and **Register Anaconda as the system Python 3.9** options are checked. I also suggest to check **Add Anaconda to the system PATH environment variable** (ignore the installer warning). It will save some problems in the future...
-
-![Anaconda installer](anaconda.png)
+After downloading the installer, run it. You can leave the default settings. However, I suggest that during installation you make sure that the **All users** and **Register Anaconda as the system Python 3.11** options are checked.
 
 After successful installation, new items will appear in the Start menu:
 
