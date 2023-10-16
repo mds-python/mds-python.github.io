@@ -6,6 +6,8 @@ nav_order:  2
 
 # Functions with arbitrary arguments
 
+## Defining functions with arbitrary arguments
+
 In Python, it is possible to create functions with any number of arguments, not specified in advance. For this purpose, when defining the function, we give a special argument `*args` (an asterisk `*` at the beginning is the important part: the name can be anything, but it is customary to use _args_ and I recommend sticking to this convention):
 
 ```python
@@ -23,7 +25,7 @@ Similarly, a function can accept any number of arguments given by name. For this
 def function2(**kwargs):
     print(kwargs)
 ```
-When calling this function, you can pass any number of arguments with any name . Inside the function, the argument `kwargs` will be a **dictionary** containing all the arguments given. For example:
+When calling this function, you can pass any number of arguments with any name. Inside the function, the argument `kwargs` will be a **dictionary** containing all the arguments given. For example:
 
 ```python
 function2(a=1, b=2, c=3)     # {'a': 1, 'b': 2, 'c': 3}
@@ -79,6 +81,40 @@ def print(*args, sep='', end='\n', file=sys.stdout, flush=False):
     """
 ```
 
+## Calling functions with any arguments
+
+Similarly like in function definition, you may use `*` and `**` symbols when calling them. See the following example:
+```python
+def function(a, b, c):
+    print(a, b, c)
+
+data = [1, 2, 3]
+function(*data)
+```
+This is equivalent to calling this function as
+```python
+function(1, 2, 3)
+```
+
+In general, when calling a function as `function(*sequence)`, the sequence is expanded and its elements are passed as positional parameters. Similarly, `function(**dictionary)` is equivalent to passing the dictionary elements as named parameters. So the function from the example above can be called as
+```python
+params = {'a': 1, 'b': 2, 'c':  3}
+function(**params)
+```
+The keys of the dictionary passes to a function with `**` **must be strings**. In other case, `TypeError` will be raised.
+
+The above method of calling function can be used regardless of its definition: it will work for both classical functions and the functions with arbitrary arguments described above.
+
+A typical use case is printing all elements of a sequence:
+```python
+data = [1, 2, 3, 4]
+print(*data, sep=', ')
+```
+or even
+```python
+print(*"abcd", sep='-')
+```
+The last example will print “`a-b-c-d`”.
 
 <hr/>
 
