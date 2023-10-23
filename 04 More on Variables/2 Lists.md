@@ -58,7 +58,7 @@ print(list)     # ['A', 'X', 'B', 'C']
 
 Below is an example of creating a names list. Please run it and analyze it:
 
-```
+```python
 names = []     # this creates an empty list 
 
 # The following loop will run infinitely 
@@ -79,7 +79,7 @@ You can convert lists to tuples and vice versa without any restrictions. This wa
 ```python
 my_tuple = (1, 2, 3)
 my_list = list(my_tuple)
-list[0] = 10 
+my_list[0] = 10 
 my_tuple = tuple(my_list)
 print(my_tuple)
 ```

@@ -31,6 +31,8 @@ Another useful operation is checking if a given element is present in the sequen
 ```python
 if 'a' in 'Alice':
     print("The word 'Alice' contains the letter 'a'")
+else
+    print("No 'a' in 'Alice'")
 
 if 4 not in (2, 3, 5, 7, 11, 13, 17, 19): 
     print("Four is not a prime less than 20")
