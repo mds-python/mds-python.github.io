@@ -13,7 +13,7 @@ Fortunately, Python comes with a number of modules that make this task much easi
 ```python
 import pickle
 
-# The variable data contains a dictionary of the collected data that we want to save the
+# The variable data contains a dictionary of the collected data that we want to save
 data = {'a': [1,2,3], 'b': "Ala has a cat", 'c': 123}
 
 with open ('data. pickle', 'wb') as save_file:
@@ -32,11 +32,22 @@ with open ('data.pickle', 'rb') as read_file:
  Pickle functions `dump` and  `load` can be called several times for a given file. Then successive variables are written to it, which can be read one by one. However, in order to save the program settings, it is recommended to create one dictionary containing them all and save/load it once.
 
 There are other modules that work similarly to `pickle`. For example `json` and `yaml` (the latter is not the standard Python module, but in the distribution of Anaconda is installed by default). Unlike the `pickle` module, they require files that are opened in text mode (without `b`). They will create text files in [JSON](https://en.wikipedia.org/wiki/JSON) or [YAML](https://en.wikipedia.org/wiki/YAML) formats that can be read and edited in external tools. At the same time, these formats can be read from Python:
+```python
+import json
 
+data = {'a': [1,2,3], 'b': "Ala ma cat", 'c': 123}
+
+with open('data.json', 'w') as saved_file:
+     json.dump(data, saved_file)
+
+
+with open('data.json', 'r') as read_file:
+    print(json.load(read_file))
+```
+or
 ```python
 import yaml
 
-# The variable data contains a dictionary of the retrieved data that we want to save the
 data = {'a': [1,2,3], 'b': "Ala ma cat", 'c': 123}
 
 with open('data.yaml', 'w') as saved_file:
@@ -44,9 +55,9 @@ with open('data.yaml', 'w') as saved_file:
 
 
 with open('data.yaml', 'r') as read_file:
-    print(yaml.load(read_file))
+    print(yaml.safe_load(read_file))  # Unlike pickle and json yaml uses safe_load instead of load
 ```
-The above code works the same as for the module `pickle`. However, please open the file `data.yaml` in a text editor: its content should be readable and possible to modify manually.
+The above codes work the same as for the module `pickle`. However, please open the file `data.yaml` in a text editor: its content should be readable and possible to modify manually.
 
 ***Attention!***  When using the `json` module, it is not possible to save a variable of any type (e.g. tuples which must first be converted into lists). `pickle` and `yaml` do not have this limitation.
 
