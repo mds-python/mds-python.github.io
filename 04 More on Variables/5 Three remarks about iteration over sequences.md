@@ -4,7 +4,30 @@ grand_parent: Programming for Modelling and Data Analysis
 nav_order:  5
 ---
 
-# Two remarks about iteration over sequences
+# Three remarks about iteration over sequences
+
+## Correctly iterating over sequences
+
+When iterating over a sequence, you may be tempted to use something like:
+
+<div style="text-decoration: line-through;" onmouseover="this.style.textDecoration='none'" onmouseout="this.style.textDecoration='line-through'" markdown="1">
+
+```python
+for i in range(len(sequence)):
+    element = sequence[i]
+    operate on element
+```
+
+</div>
+
+This is particularly common for people who have some experience with different programming languages, like C++. **In Python this is wrong!** Instead, you should simply iterate over sequence elements disregarding their indices:
+
+```python
+for element in sequence:
+    operate on element
+```
+
+This is much more elegant and works also with sequences that are not indexed with numbers, like dictionaries or sets.
 
 ## Item numbering in a loop
 
@@ -37,7 +60,7 @@ for element1, element2, element3 in zip(sequence1, sequence2, sequence3):
     loop block
 ```
 
-For exaple:
+For example:
 
 ```python
 first_names = ["Harry", "Frodo", "James"]

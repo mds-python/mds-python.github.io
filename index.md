@@ -41,7 +41,7 @@ has_toc: false
 * [Lists](04%20More%20on%20Variables/2%20Lists)
 * [Dictionaries](04%20More%20on%20Variables/3%20Dictionaries)
 * [Sets](04%20More%20on%20Variables/4%20Sets)
-* [Two remarks about iteration over sequences Item numbering in a loop](04%20More%20on%20Variables/5%20Two%20remarks%20about%20iteration%20over%20sequences%20Item%20numbering%20in%20a%20loop)
+* [Three remarks about iteration over sequences](04%20More%20on%20Variables/5%20Three%20remarks%20about%20iteration%20over%20sequences)
 * [Complex numbers](04%20More%20on%20Variables/6%20Complex%20numbers)
 * [String operations](04%20More%20on%20Variables/7%20String%20operations)
 * [Variables and variable types](04%20More%20on%20Variables/8%20Variables%20and%20variable%20types)
