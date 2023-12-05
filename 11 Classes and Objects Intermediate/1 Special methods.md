@@ -12,24 +12,24 @@ Let's go back to our [`Fraction` class](../09%20Classes%20and%20Objects%20Basis/
 
 ```python
 class Fraction:
-    def __init__(self, nom, denom):
-        self.nom = nom
+    def __init__(self, numer, denom):
+        self.numer = numer
         self.denom = denom
 
     def mul(self, other):
-        return Fraction(self.nom * self.nom, self.denom * self.denom)
+        return Fraction(self.numer * self.numer, self.denom * self.denom)
 ```
 
 Such formulation allows us to multiply two fractions in an ugly way `c = a.mul(b)`. It would be much more clear if we were able to write `c = a * b`. In fact we can. Let's rename the method `mul` to `__mul__` (two underscored in the beginning and the end, like in `__init__`):
 
 ```python
 class Fraction:
-    def __init__(self, nom, denom):
-        self.nom = nom
+    def __init__(self, numer, denom):
+        self.numer = numer
         self.denom = denom
 
     def __mul__(self, other):
-        return Fraction(self.nom * self.nom, self.denom * self.denom)
+        return Fraction(self.numer * self.numer, self.denom * self.denom)
 ```
 
 Now we can write:
@@ -65,8 +65,8 @@ An important special method you should always implement is `__str__`. Consider t
 
 ```python
 class Fraction:
-    def __init__(self, nom, denom):
-        self.nom = nom
+    def __init__(self, numer, denom):
+        self.numer = numer
         self.denom = denom
 
 frac = Fraction(1, 2)
@@ -84,13 +84,13 @@ This is not very useful. Luckily, the `__str__` method can be used to convert th
 
 ```python
 class Fraction:
-    def __init__(self, nom, denom):
-        self.nom = nom
+    def __init__(self, numer, denom):
+        self.numer = numer
         self.denom = denom
 
     def __str__(self):
         # This method must RETURN a string. Do not try to print anything!
-        return f"{self.nom}/{self.denom}"
+        return f"{self.numer}/{self.denom}"
 
 frac = Fraction(1, 2)
 
@@ -105,7 +105,7 @@ Our fraction is: 1/2
 
 ## Object comparison
 
-Some other special functions that are very useful are comparisons. Fractions can be equal (if both nominators and denominators equal) or one can be larger than another one. Special functions doing comparisons should always return `True` or `False`. Their names are as follow:
+Some other special functions that are very useful are comparisons. Fractions can be equal (if both numerators and denominators equal) or one can be larger than another one. Special functions doing comparisons should always return `True` or `False`. Their names are as follow:
 
 | Comparison | Special function    |
 | ---------- | ------------------- |
@@ -122,25 +122,25 @@ Some other special functions that are very useful are comparisons. Fractions can
 >
 > When you implement arithmetic operation on fractions, you may end up with a reducible fraction, e.g. 2/3 × 3/5 = 6/15. Naturally, this fraction is equal to 2/5.
 >
-> In order to have your class behave elegantly and for comparisons to work, you should always reduce the fraction by dividing both the nominator and denominator by their [greatest common divisor](https://en.wikipedia.org/wiki/Greatest_common_divisor), which can be found using the function `gcd` in the `math` module. In which method you should do it? If you do this in every special method responsible for mathematical operation, you will need to do it several times. Furthermore, if someone creates an instance of you class e.g. as `Fraction(4, 6)`, the fraction will not be reduced. However if you make the reduction in the constructor, this will cover all use cases:
+> In order to have your class behave elegantly and for comparisons to work, you should always reduce the fraction by dividing both the numerator and denominator by their [greatest common divisor](https://en.wikipedia.org/wiki/Greatest_common_divisor), which can be found using the function `gcd` in the `math` module. In which method you should do it? If you do this in every special method responsible for mathematical operation, you will need to do it several times. Furthermore, if someone creates an instance of you class e.g. as `Fraction(4, 6)`, the fraction will not be reduced. However if you make the reduction in the constructor, this will cover all use cases:
 >
 > ```python
 > from math import gcd
 >
 > class Fraction:
->     def __init__(self, nom, denom):
->         r = gcd(nom, denom)
->         self.nom = nom // r      # we use // for integer division
+>     def __init__(self, numer, denom):
+>         r = gcd(numer, denom)
+>         self.numer = numer // r      # we use // for integer division
 >         self.denom = denom // r
 >
 >     def __str__(self):
->         return f"{self.nom}/{self.denom}"
+>         return f"{self.numer}/{self.denom}"
 >
 >     def __mul__(self, other):
->         return Fraction(self.nom * self.nom, self.denom * self.denom)
+>         return Fraction(self.numer * self.numer, self.denom * self.denom)
 > ```
 >
-> Also in the constructor you can do more sanitizations, like checking if the denominator is not 0 (and raising `ValueError` in such case), making sure that the denominator is always positive (and the sign of the nominator is adjusted accordingly), etc.
+> Also in the constructor you can do more sanitizations, like checking if the denominator is not 0 (and raising `ValueError` in such case), making sure that the denominator is always positive (and the sign of the numerator is adjusted accordingly), etc.
 
 <hr/>
 

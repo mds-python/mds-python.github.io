@@ -13,12 +13,12 @@ name = "python"
 print(name.upper())  # `upper()` is a method in `str` class
 ```
 
-You may define any type you want. Consider a class defining a fraction. It should have two attributes, *nominator* (named shortly `nom`) and *denominator* (`denom`):
+You may define any type you want. Consider a class defining a fraction. It should have two attributes, *numerator* (named shortly `numer`) and *denominator* (`denom`):
 
 ```python
 class Fraction:
-    def __init__(self, nom, denom):
-        self.nom = nom
+    def __init__(self, numer, denom):
+        self.numer = numer
         self.denom = denom
 ```
 
@@ -26,19 +26,19 @@ It is possible to perform mathematical operations on fractions, like addition, s
 
 ```python
 def mul(a, b):
-    return Fraction(a.nom * b.nom, a.denom * b.denom)
+    return Fraction(a.numer * b.numer, a.denom * b.denom)
 ```
 
 Actually this function is specific for fractions only. So, in order to keep things together, it is better to make it a method in a fraction:
 
 ```python
 class Fraction:
-    def __init__(self, nom, denom):
-        self.nom = nom
+    def __init__(self, numer, denom):
+        self.numer = numer
         self.denom = denom
 
     def mul(self, other):
-        return Fraction(self.nom * self.nom, self.denom * self.denom)
+        return Fraction(self.numer * self.numer, self.denom * self.denom)
 ```
 
 We may use this method as follows:
