@@ -17,7 +17,7 @@ class Fraction:
         self.denom = denom
 
     def mul(self, other):
-        return Fraction(self.numer * self.numer, self.denom * self.denom)
+        return Fraction(self.numer * other.numer, self.denom * other.denom)
 ```
 
 Such formulation allows us to multiply two fractions in an ugly way `c = a.mul(b)`. It would be much more clear if we were able to write `c = a * b`. In fact we can. Let's rename the method `mul` to `__mul__` (two underscored in the beginning and the end, like in `__init__`):
@@ -29,7 +29,7 @@ class Fraction:
         self.denom = denom
 
     def __mul__(self, other):
-        return Fraction(self.numer * self.numer, self.denom * self.denom)
+        return Fraction(self.numer * other.numer, self.denom * other.denom)
 ```
 
 Now we can write:
@@ -137,7 +137,7 @@ Some other special functions that are very useful are comparisons. Fractions can
 >         return f"{self.numer}/{self.denom}"
 >
 >     def __mul__(self, other):
->         return Fraction(self.numer * self.numer, self.denom * self.denom)
+>         return Fraction(self.numer * other.numer, self.denom * other.denom)
 > ```
 >
 > Also in the constructor you can do more sanitizations, like checking if the denominator is not 0 (and raising `ValueError` in such case), making sure that the denominator is always positive (and the sign of the numerator is adjusted accordingly), etc.
