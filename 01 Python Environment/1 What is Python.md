@@ -17,7 +17,7 @@ Python is available to everyone for free — you can get it from <https://python
 
 Google, Yahoo, Nokia, IBM and NASA use Python in their multi-million or billion dollar applications and projects. Both Microsoft and Apple offer full support for Python in their operating systems and development platforms. Many websites such as YouTube and Grono are written in Python.
 
-**NASA** has been using Python for many years. One of the well-described implementations is using Python applications to [manage shuttle launch controls](http://www.python.org/about/success/usa/). Also, the recently released [Nebula](http://nebula.nasa.gov/) project is a distributed computing environment adapted to "cloud" computing, combining many Python modules and applications with other languages and technologies.
+**NASA** has been using Python for many years. One of the well-described implementations is using Python applications to [manage shuttle launch controls](http://www.python.org/about/success/usa/).
 
 ## Python in engineering applications
 

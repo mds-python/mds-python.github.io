@@ -18,6 +18,15 @@
                 "kind": "build",
                 "isDefault": true
             }
+        },
+        {
+            "label": "Make HTML",
+            "type": "shell",
+            "command": "sed -f html.sed '${file}'",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }
