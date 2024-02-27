@@ -8,7 +8,7 @@ nav_order:  1
 
 All previous programs have been executed sequentially, line by line. No line could be skipped.
 
-Consider the following problem: for a given real number, determine its absolute value. If number > 0, the program should print its value, otherwise it should print –number . This behavior cannot be achieved by using a sequential program. The program should conditionally select the next step. The following command used for this purpose is called if:
+Consider the following problem: for a given real number, determine its absolute value. If number > 0, the program should print its value, otherwise it should print –number . This behavior cannot be achieved by using a sequential program. The program should conditionally select the next step. The following command used for this purpose is called **`if`**:
 
 ```python
 number = float(input("Enter a number:"))
@@ -21,7 +21,7 @@ else:
 print(absolute_value)
 ```
 
-This program uses a conditional statement **`if`** . After that, we put a condition `number > 0` after a colon. We then insert a block of statements that will only be executed if the condition is true (i.e. the value of the expression `number > 0` is equal to  `True`). This block can be followed by a word  else, a colon, and another block of instructions that will only be executed if the condition is false (i.e., has the value `False`).
+This program uses a conditional statement **`if`** . After that, we put a condition `number > 0` after a colon. We then insert a block of statements that will only be executed if the condition is true (i.e. the value of the expression `number > 0` is equal to  `True`). This block can (but doesn't have to) be followed by a word **`else`**, a colon, and another block of instructions that will only be executed if the condition is false (i.e., has the value `False`).
 
 ## Blocks in Python
 
@@ -42,7 +42,7 @@ In summary, a conditional statement in Python has the following syntax:
     executed if the condition is False
 </pre>
 
-the keyword else along with its corresponding block can be omitted if nothing should be done if the condition is false. For example, we can replace the variable with number with its absolute value as follows:
+the keyword `else` along with its corresponding block can be omitted if nothing should be done if the condition is false. For example, we can replace the variable with number with its absolute value as follows:
 
 ```python
 number = float(input("Enter a number:"))

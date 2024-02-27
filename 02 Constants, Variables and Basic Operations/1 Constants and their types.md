@@ -61,7 +61,7 @@ More on the use of tuples and how to extract their individual elements will be p
 
 ## Operations on values
 
-You can act on the values supported by Python using mathematical operators. The basic operators are `+`, `-`, `*` (multiplication), `/` (division), `**` (power), `//` (integer division), `%` (division remainder). Python can perform operations according to the applicable mathematical rules (the use of parentheses is allowed). To read them, start the Spyder program and enter the following expressions in the interactive console (it is not necessary to use the `print` function - the interactive shell will automatically print the result of the calculated expression):
+You can act on the values supported by Python using mathematical operators. The basic operators are `+`, `-`, `*` (multiplication), `/` (division), `**` (power), `//` (integer division), `%` (division remainder). Python can perform operations according to the applicable mathematical rules (the use of parentheses is allowed). To read them, start the Jupyter notebook and enter the following expressions, each in separate cell (it is not necessary to use the `print` function - Jupyter will automatically print the result of the calculated expression):
 
 ```python
 1 + 2
@@ -134,7 +134,7 @@ All the constants of a specific type described above (as well as other types, no
 * tuples: `tuple`
 
 
-For any value you can check its type using the type function, for example:
+For any value you can check its type using the `type` function, for example:
 
 ```python
 type(2)
