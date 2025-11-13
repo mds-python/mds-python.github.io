@@ -96,3 +96,7 @@ Project 1: [Hangman](https://github.com/mds-python/hangman)
 Project 2: [Game of Life](https://github.com/mds-python/game-of-life)
 
 Project 3: [COVID Simulator](https://github.com/mds-python/covid)
+
+## Testing your code
+* [Writing unit tests](12%20Testing%20your%20code/1%20Writing%20unit%20tests)
+* [Running unit tests](12%20Testing%20your%20code/2%20Running%20unit%20tests)
